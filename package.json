@@ -1,0 +1,11 @@
+{
+  "name": "projet3-adrien",
+  "version": "1.0.0",
+  "description": "Création du site mobile OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrien Lehugeur",
+  "license": "ISC"
+}
