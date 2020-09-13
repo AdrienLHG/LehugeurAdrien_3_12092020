@@ -1,1 +1,13 @@
+//varialbes, mixins...
+@import "./utils/variables";
+
+
+//blocs fondation site
 @import "./base/typography";
+
+
+//blocs BEM réutilisables
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/menurestaurant";
+
