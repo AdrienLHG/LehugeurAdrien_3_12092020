@@ -1,11 +1,20 @@
 {
   "name": "projet3-adrien",
   "version": "1.0.0",
-  "description": "Création du site mobile OhMyFood",
+  "description": "Projet 3 OPC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "sass": "sass --watch ./sass/main.scss:./css/style.css"
+
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienLHG/LehugeurAdrien_3_12092020.git"
   },
   "author": "Adrien Lehugeur",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienLHG/LehugeurAdrien_3_12092020/issues"
+  },
+  "homepage": "https://github.com/AdrienLHG/LehugeurAdrien_3_12092020#readme"
 }
