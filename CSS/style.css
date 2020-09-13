@@ -1,3 +1,20 @@
+p, h2, h3 {
+  font-family: 'Athiti', sans-serif; }
 
+@font-face {
+  font-family: 'CooperBlack';
+  src: url("fonts/cooper-black/COOPBL.ttf") format("ttt"); }
+.menu-restaurant__nom {
+  font-family: 'CooperBlack', 'Titan', cursive;
+  font-size: 1.5rem;
+  font-style: italic; }
+
+h2 {
+  font-size: 1.3rem; }
+
+footer h4 {
+  font-family: 'CooperBlack', 'Titan', cursive; }
+
+/*/////////////////////// Media Queries - responsive /////////////////////////*/
 
 /*# sourceMappingURL=style.css.map */
