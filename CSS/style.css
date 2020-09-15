@@ -65,7 +65,8 @@ footer h4 {
       border-radius: 50px 50px 0 0;
       padding-left: 20px; }
     .menu-restaurant__nom h1 {
-      margin-block-end: 0em; }
+      margin-block-end: 0em;
+      font-size: 1.8rem; }
     .menu-restaurant__nom .far {
       left: 320px;
       bottom: 37px; }
@@ -237,16 +238,6 @@ footer h4 {
       bottom: 250px;
       border-radius: 11%;
       text-align: center; }
-      .home-restaurant__new--1 {
-        background-color: #f1f8e9;
-        color: #558b2f;
-        width: 80px;
-        height: 27px;
-        position: relative;
-        left: 250px;
-        bottom: 482px;
-        border-radius: 11%;
-        text-align: center; }
 
   .far {
     font-size: 2rem;
