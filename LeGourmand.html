@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ohmyfood! est un site web de réservation de restaurants et de composition de menu en ligne. Notre concept permet aux utilisateurs de réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte !  />
+    <script src="https://kit.fontawesome.com/4c22579057.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600&family=Titan+One&display=swap" rel="stylesheet">
+    <meta name="description" content="Ohmyfood! est un site web de réservation de restaurants et de composition de menu en ligne. Notre concept permet aux utilisateurs de réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte !    />
     <meta property="og:title" content="ohmyfood" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="" />
@@ -17,32 +19,33 @@
     <meta name="twitter:image" content="">
     <link rel="stylesheet" type="text/css" href="css/prefixed/style.css" media="screen">
     <link rel="icon" href="images/logo/ohmyfood_carre.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>ohmyfood</title>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">ohmyfood</a></h1>
+        <a href="index.html"><i class="fas fa-arrow-left"></i><img src="images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"></a>
     </header>
     <content>
         <section class="menu-restaurant">
             <div class="menu-restaurant__photo">
-                <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="restaurant Le Gourmand" />
+                <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="restaurant Le Gourmand" />
             </div>
-            <div class="menu-restaurant__nom">
-                <h1>The Enchanted Plate</h1>
+            <div class="menu-restaurant menu-restaurant__nom">
+                <h1>Le Gourmand</h1>
                 <i class="far fa-heart"></i>
             </div>
             <div class="menu-restaurant__entrées">
-                <p class="entrées-titre">
-                    <span class="entrées-titre--border">ENTR</span>ÉES
+                <p class="item-titre">
+                    <span class="item-titre--border">ENTR</span>ÉES
                 </p>
                 <article class="item">
                     <div class="item__choix">
                         <h2>Tuna Carpaccio</h2>
                         <p>seasoned with yuzu</p>
                     </div>
-                    <div class="entrées__entrées--prix">
-                        <p><bold>25€</bold></p>
+                    <div class="item__prix">
+                        <h2>25€</h2>
                     </div>
                 </article>
                 <article class="item">
@@ -50,8 +53,8 @@
                         <h2>Crunchy Lobster Croquets</h2>
                         <p>with seasonal vegetables</p>
                     </div>
-                    <div class="entrées__entrées--prix">
-                        <p><bold>35€</bold></p>
+                    <div class="item__prix">
+                        <h2>35€</h2>
                     </div>
                 </article>
                 <article class="item">
@@ -59,14 +62,14 @@
                         <h2>Mushroom soup</h2>
                         <p>with trufflest</p>
                     </div>
-                    <div class="entrées__entrées--prix">
-                        <p><bold>20€</bold></p>
+                    <div class="item__prix">
+                        <h2>20€</h2>
                     </div>
                 </article>
             </div>
             <div class="menu-restaurant__plats">
-                <p class="plats-titre">
-                    <span clas="entrées-titre--border">MAIN</span> DISH
+                <p class="item-titre">
+                    <span class="item-titre--border">MAIN</span> DISH
                 </p>
                 <article class="item">
                     <div class="item__choix">
@@ -74,7 +77,7 @@
                         <p>with truffle cream</p>
                     </div>
                     <div class="item__prix">
-                        <p><bold>40€</bold></p>
+                        <h2>40€</h2>
                     </div>
                 </article>
                 <article class="item">
@@ -83,7 +86,7 @@
                         <p>with seasonal vegetables</p>
                     </div>
                     <div class="item__prix">
-                        <p><bold>35€</bold></p>
+                        <h2>35€</h2>
                     </div>
                 </article>
                 <article class="item">
@@ -92,13 +95,13 @@
                         <p>with mashed parshnips</p>
                     </div>
                     <div class="item__prix">
-                        <p><bold>44€</bold></p>
+                        <h2>44€</h2>
                     </div>
                 </article>
             </div>
             <div class="menu-restaurant__desserts">
-                <p class="desserts-titre">
-                    <span class="desserts-titre--border">DESS</span>ERTS
+                <p class="item-titre">
+                    <span class="item-titre--border">DESS</span>ERTS
                 </p>
                 <article class="item">
                     <div class="item__choix">
@@ -106,7 +109,7 @@
                         <p>Chef's choice</p>
                     </div>
                     <div class="item__prix">
-                        <p><bold>18€</bold></p>
+                        <h2>18€</h2>
                     </div>
                 </article>
                 <article class="item">
@@ -115,27 +118,29 @@
                         <p>revisited</p>
                     </div>
                     <div class="item__prix">
-                        <p><bold>22€</bold></p>
+                        <h2>22€</h2>
                     </div>
-                 </article>
-                 <article class="item">
+                </article>
+                <article class="item">
                     <div class="item__choix">
                         <h2>Tiramisu</h2>
                         <p>with hazelnuts</p>
                     </div>
                     <div class="item__prix">
-                        <p><bold>23€</bold></p>
+                        <h2>23€</h2>
                     </div>
-                 </article>
+                </article>
             </div>
             <div class="menu-restaurant__bouton"><p>Order</p></div>
         </section>
     </content>
-    <footer>
-        <h4>ohmyfood</h4>
-        <i class="fas fa-utensils"></i><p>Suggest a restaurant</p>
-        <i class="fas fa-hands-helping"></i><p>Become a partner</p>
-        <p>Legal<br />Contact</p>
+    <<footer>
+        <div class="contenu-footer">
+            <h4>ohmyfood</h4>
+            <p><i class="fas fa-utensils"></i>  Suggest a restaurant</p>
+            <p><i class="fas fa-hands-helping"></i>Become a partner</p>
+            <p>Legal<br />Contact</p>
+        </div>
     </footer>
 </body>
 </html>
