@@ -31,6 +31,7 @@
             font-size: 1.3rem;
             margin: auto 30px auto 30px;
         }
+
         &__btn {
             @include bouton-generique;
         }
@@ -47,8 +48,6 @@
         font-size: 2rem;
     }
 
-
-
     .home-work {
         display: flex;
         font-size: 1rem;
@@ -64,7 +63,7 @@
             position: relative;
             left: 10px;
         }
-        /*///////// en faire une mixin*/
+
         &__texte {
             width: 80%;
             border-radius: 10px 10px 10px 10px;
@@ -73,6 +72,15 @@
             margin-bottom: 20px;
             background-color: #f5f5f5;
             box-shadow: 2px 10px 25px $color-shadow;
+            transition: transform 400ms ease-in-out;
+
+            &:hover {
+                background-color: $color-btn-order;
+                opacity: 50%;
+                cursor: pointer;
+                transform: scale(1.12);
+                color: white;
+            }
         }
 
         &__texte .fas {
@@ -93,67 +101,73 @@
         }
     }
 
-    .preview-restaurant {
-        display: flex;
-        flex-direction: column;
-        background-color: $background-book;
-    }
+        .preview-restaurant {
+            display: flex;
+            flex-direction: column;
+            background-color: $background-book;
+        }
 
-    .preview-restaurant h2 {
-        font-size: 2rem;
-        margin-left: 30px;
-    }
+        .preview-restaurant h2 {
+            font-size: 2rem;
+            margin-left: 30px;
+        }
 
-    .home-restaurant a {
-        color: black;
-        text-decoration: none;
-    }
-    .home-restaurant {
-        width: 350px;
-        background-color: white;
-        margin-left: 30px;
-        margin-bottom: 30px;
-        border-radius: 25px 25px 25px 25px;
-        box-shadow: 2px 10px 25px $color-shadow;
+        .home-restaurant a {
+            color: black;
+            text-decoration: none;
+        }
 
-        &__image {
+        .home-restaurant {
             width: 350px;
-            height: 200px;
-            overflow: hidden;
-            border-radius: 25px 25px 0 0;
-        }
+            background-color: white;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            border-radius: 25px 25px 25px 25px;
+            box-shadow: 2px 10px 25px $color-shadow;
 
-        &__image img {
-            width: 400px;
-        }
+            &:hover {
+                cursor: pointer;
+            }
 
-        &__title {
-            margin-left: 25px;
-            margin-block-start: 0.8em;
-            margin-block-end: 0em;
-        }
+            &__image {
+                width: 350px;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 25px 25px 0 0;
+            }
 
-        &__city {
-            margin-left: 25px;
-        }
+            &__image img {
+                width: 400px;
+            }
 
-        &__new {
-            background-color: $color-bloc-new;
-            color: $color-text-new;
-            width: 80px;
-            height: 27px;
-            position: relative;
-            left: 250px;
-            bottom: 250px;
-            border-radius: 11%;
-            text-align: center;
+            &__title {
+                margin-left: 25px;
+                margin-block-start: 0.8em;
+                margin-block-end: 0em;
+            }
+
+            &__city {
+                margin-left: 25px;
+            }
+
+            &__new {
+                background-color: $color-bloc-new;
+                color: $color-text-new;
+                width: 80px;
+                height: 27px;
+                position: relative;
+                left: 250px;
+                bottom: 250px;
+                border-radius: 11%;
+                text-align: center;
             }
         }
 
-    .far {
-        font-size: 2rem;
-        position: relative;
-        left: 280px;
-        bottom: 50px;
-    }
+        .far {
+            font-size: 2rem;
+            position: relative;
+            left: 280px;
+            bottom: 50px;
+        }
 }
+

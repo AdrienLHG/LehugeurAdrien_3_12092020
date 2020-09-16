@@ -100,6 +100,9 @@ footer h4 {
       background-color: #ba68c8;
       color: white;
       box-shadow: 2px 10px 25px #bdbdbd; }
+      .menu-restaurant__bouton:hover {
+        cursor: pointer;
+        transform: scale(1.2); }
 
   .item-titre {
     font-size: 1.5rem;
@@ -177,6 +180,9 @@ footer h4 {
       background-color: #ba68c8;
       color: white;
       box-shadow: 2px 10px 25px #bdbdbd; }
+      .home-book__btn:hover {
+        cursor: pointer;
+        transform: scale(1.2); }
 
   .menu-work {
     margin-left: 30px;
@@ -189,8 +195,7 @@ footer h4 {
 
   .home-work {
     display: flex;
-    font-size: 1rem;
-    /*///////// en faire une mixin*/ }
+    font-size: 1rem; }
     .home-work__number {
       text-align: center;
       width: 6%;
@@ -208,7 +213,14 @@ footer h4 {
       padding-bottom: 20px;
       margin-bottom: 20px;
       background-color: #f5f5f5;
-      box-shadow: 2px 10px 25px #bdbdbd; }
+      box-shadow: 2px 10px 25px #bdbdbd;
+      transition: transform 400ms ease-in-out; }
+      .home-work__texte:hover {
+        background-color: #ba68c8;
+        opacity: 50%;
+        cursor: pointer;
+        transform: scale(1.12);
+        color: white; }
     .home-work__texte .fas {
       margin-left: 30px;
       margin-right: 30px; }
@@ -239,6 +251,8 @@ footer h4 {
     margin-bottom: 30px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 2px 10px 25px #bdbdbd; }
+    .home-restaurant:hover {
+      cursor: pointer; }
     .home-restaurant__image {
       width: 350px;
       height: 200px;
