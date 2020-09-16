@@ -1,6 +1,10 @@
 @charset "UTF-8";
+/*/////remplissage icône//////*/
+.far:hover {
+  font-weight: bold;
+  color: #ba68c8; }
+
 /*/////animation apparition menu//////*/
-/*régler l'opacité, faire en sorte que les items soient décalés*/
 @keyframes menu-in {
   0% {
     transform: translateY(200px);
@@ -82,7 +86,8 @@ footer h4 {
       font-size: 1.8rem; }
     .menu-restaurant__nom .far {
       left: 320px;
-      bottom: 37px; }
+      bottom: 37px;
+      font-style: inherit; }
     .menu-restaurant__entrées {
       display: flex;
       flex-direction: column; }
