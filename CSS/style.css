@@ -1,12 +1,15 @@
 @charset "UTF-8";
 /*/////animation apparition menu//////*/
+/*régler l'opacité, faire en sorte que les items soient décalés*/
 @keyframes menu-in {
   0% {
-    transform: translateY(1000px);
-    transform: translateY(1000px);
+    transform: translateY(200px);
     opacity: 0; }
+  75% {
+    opacity: 0; }
+  80% {
+    opacity: 0,1; }
   100% {
-    transform: translateY(0);
     transform: translateY(0);
     opacity: 1; } }
 p, h2, h3 {
@@ -112,7 +115,13 @@ footer h4 {
     box-shadow: 2px 10px 25px #bdbdbd;
     height: 60px;
     transform: scaleX(1);
-    animation: menu-in 3s ease-in-out both; }
+    animation: menu-in 1500ms 200ms ease-in-out both; }
+    .item--2 {
+      animation-delay: 400ms; }
+    .item--3 {
+      animation-delay: 600ms; }
+    .item--4 {
+      animation-delay: 800ms; }
     .item__choix h2 {
       margin-block-start: 0em;
       margin-block-end: 0em;
