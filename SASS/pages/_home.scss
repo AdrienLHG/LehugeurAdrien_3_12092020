@@ -49,34 +49,11 @@
         font-size: 1rem;
 
         &__number {
-            text-align: center;
-            width: 6%;
-            height: 100%;
-            margin-top: 20px;
-            border-radius: 100%;
-            background-color: #ba68c8;
-            color: white;
-            position: relative;
-            left: 10px;
+           @include numéro-rond;
         }
 
         &__texte {
-            width: 80%;
-            border-radius: 10px 10px 10px 10px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-            background-color: #f5f5f5;
-            box-shadow: 2px 10px 25px $color-shadow;
-            transition: transform 400ms ease-in-out;
-
-            &:hover {
-                background-color: $color-btn-order;
-                opacity: 50%;
-                cursor: pointer;
-                transform: scale(1.12);
-                color: white;
-            }
+            @include texte-work;
         }
 
         &__texte .fas {
@@ -114,17 +91,8 @@
         }
 
         .home-restaurant {
-            width: 350px;
-            background-color: white;
-            margin-left: 30px;
-            margin-bottom: 30px;
-            border-radius: 25px 25px 25px 25px;
-            box-shadow: 2px 10px 25px $color-shadow;
-
-            &:hover {
-                cursor: pointer;
-            }
-
+            @include preview-restaurant;
+        
             &__image {
                 width: 350px;
                 height: 200px;
@@ -147,15 +115,7 @@
             }
 
             &__new {
-                background-color: $color-bloc-new;
-                color: $color-text-new;
-                width: 80px;
-                height: 27px;
-                position: relative;
-                left: 250px;
-                bottom: 250px;
-                border-radius: 11%;
-                text-align: center;
+                @include bloc-new;
             }
         }
 
