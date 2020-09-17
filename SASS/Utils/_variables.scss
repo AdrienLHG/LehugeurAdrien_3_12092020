@@ -7,36 +7,35 @@ $color-bloc-new: #f1f8e9;
 $color-border: #a5d6a7;
 
 @mixin bouton-generique ($margin) {
-    text-align: center;
-    border-radius: 20px 20px 20px 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin: $margin;
-    width: 45%;
-    background-color: $color-btn-order;
-    color: white;
-    box-shadow: 2px 10px 25px $color-shadow;
+   text-align: center;
+   border-radius: 20px 20px 20px 20px;
+   padding:12px;
+   margin: $margin;
+   width: 45%;
+   background-color: $color-btn-order;
+   color: white;
+   box-shadow: 2px 10px 25px $color-shadow;
 
-    &:hover {
-        cursor: pointer;
-        transform: scale(1.2);
-    }
+   &:hover {
+       cursor: pointer;
+       transform: scale(1.2);
+   }
 }
 
-@mixin bloc-new {
+@mixin bloc-new ($left) {
     background-color: $color-bloc-new;
     color: darken($color-bloc-new, 50%);
     width: 80px;
     height: 27px;
     position: relative;
-    left: 250px;
+    left: $left;
     bottom: 250px;
     border-radius: 11%;
     text-align: center;
 }
 
-@mixin preview-restaurant {
-    width: 350px;
+@mixin preview-restaurant ($width) {
+    width: $width;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -48,12 +47,12 @@ $color-border: #a5d6a7;
     }
 }
 
-@mixin numéro-rond {
+@mixin numero-rond {
     text-align: center;
     width: 6%;
     height: 100%;
     margin-top: 20px;
-    border-radius: 100%;
+    border-radius: 80%;
     background-color: #ba68c8;
     color: white;
     position: relative;
@@ -90,3 +89,5 @@ $color-border: #a5d6a7;
     transform: scaleX(1);
     animation: menu-in 1500ms 200ms ease-in-out both;
 }
+
+

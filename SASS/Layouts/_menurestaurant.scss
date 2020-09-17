@@ -113,3 +113,114 @@
         }
     }
 }
+/*//////////// corriger le problème de photo en haut à partir de ce format/////////////////////*/
+@media screen and (max-width: 375px) {
+
+    .menu-restaurant__photo {
+        width: 375px;
+    }
+
+    .menu-restaurant__nom h1 {
+        font-size: 1.3rem;
+    }
+
+    .menu-restaurant__nom .far {
+        left: 238px;
+        font-size: 1.6rem;
+        bottom: 26px;
+    }
+
+    .item {
+        height: 45px;
+
+        &:hover {
+            & > .item__prix {
+                transform: translate(-20px);
+            }
+        }
+
+        &__progress {
+            left: 270px;
+            bottom: 101px;
+            width: 40px;
+            height: 65px;
+        }
+
+        &__progress i {
+            left: 10px;
+            top: 22px;
+            font-size: 1.3rem;
+        }
+
+        &__prix {
+            left: 250px;
+            bottom: 47px;
+        }
+
+        &__prix h2 {
+            font-size: 0.9rem;
+        }
+
+        &__choix h2 {
+            font-size: 0.9rem;
+        }
+
+        &__choix p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .menu-restaurant__photo {
+        width: 320px;
+    }
+    .menu-restaurant__nom h1 {
+        font-size: 1.3rem;
+    }
+
+    .menu-restaurant__nom .far {
+        left: 238px;
+        font-size: 1.6rem;
+        bottom: 26px;
+    }
+    .item {
+        height: 45px;
+
+        &:hover {
+            & > .item__prix {
+                transform: translate(-10px);
+            }
+        }
+
+        &__progress {
+            left: 226px;
+            bottom: 91px;
+
+        }
+
+        &__progress i {
+            left: 10px;
+            top: 22px;
+            font-size: 1.3rem;
+        }
+
+        &__prix {
+            left: 210px;
+            bottom: 40px;
+        }
+
+        &__prix h2 {
+            font-size: 0.8rem;
+        }
+
+        &__choix h2 {
+            font-size: 0.8rem;
+        }
+
+        &__choix p {
+            font-size: 0.7rem;
+        }
+    }
+}
