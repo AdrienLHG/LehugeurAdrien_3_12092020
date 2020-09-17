@@ -5,13 +5,15 @@
 
 //blocs fondation site
 @import "./base/typography";
-
+@import "./base/background";
 
 //blocs BEM réutilisables
 @import "./layouts/header";
 @import "./layouts/footer";
 @import "./layouts/menurestaurant";
-@import "./layouts/background";
 
 //pages
 @import "./pages/home";
+
+//composants
+@import"./composants/bouton"

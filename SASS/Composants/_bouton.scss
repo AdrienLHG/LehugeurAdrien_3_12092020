@@ -1,0 +1,7 @@
+.home-book__btn {
+    @include bouton-generique (45px auto 45px 115px);
+}
+
+.menu-restaurant__bouton {
+    @include bouton-generique (60px auto 60px 115px);
+}
