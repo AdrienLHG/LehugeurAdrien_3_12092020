@@ -1,30 +1,21 @@
+@media screen and (max-width: 1024px) {
+
+    .home-book__btn {
+        @include bouton-generique (45px auto 45px auto, 1.5rem);
+    }
+
+    .menu-restaurant__bouton {
+        @include bouton-generique (45px auto 45px auto, 1.5rem);
+    }
+}
 
 @media screen and (max-width: 425px) {
     .home-book__btn {
-        @include bouton-generique (45px auto 45px 102px);
+        @include bouton-generique (45px auto 45px auto, 1rem);
     }
 
     .menu-restaurant__bouton {
-        @include bouton-generique (60px auto 60px 90px);
-    }
-}
-@media screen and (max-width: 375px) {
-    .home-book__btn {
-        @include bouton-generique (45px auto 45px 90px);
-    }
-
-    .menu-restaurant__bouton {
-        @include bouton-generique (60px auto 60px 90px);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .home-book__btn {
-        @include bouton-generique (45px auto 45px 78px);
-    }
-
-    .menu-restaurant__bouton {
-        @include bouton-generique (60px auto 60px 78px);
+        @include bouton-generique (60px auto 60px auto, 1rem);
     }
 }
 

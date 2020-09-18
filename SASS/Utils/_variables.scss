@@ -6,30 +6,43 @@ $color-shadow: #bdbdbd;
 $color-bloc-new: #f1f8e9;
 $color-border: #a5d6a7;
 
-@mixin bouton-generique ($margin) {
-   text-align: center;
-   border-radius: 20px 20px 20px 20px;
-   padding:12px;
-   margin: $margin;
-   width: 45%;
-   background-color: $color-btn-order;
-   color: white;
-   box-shadow: 2px 10px 25px $color-shadow;
+@mixin bouton-generique ($margin, $size) {
+    text-align: center;
+    font-size: $size;
+    border-radius: 70px 70px 70px 70px;
+    padding: 12px;
+    margin: $margin;
+    width: 45%;
+    background-color: $color-btn-order;
+    color: white;
+    box-shadow: 2px 10px 25px $color-shadow;
 
-   &:hover {
-       cursor: pointer;
-       transform: scale(1.2);
-   }
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+    }
 }
 
-@mixin bloc-new ($left) {
-    background-color: $color-bloc-new;
-    color: darken($color-bloc-new, 50%);
-    width: 80px;
-    height: 27px;
+@mixin bloc-new ($left, $bottom) {
+    background-color: #f1f8e9;
+    color: #75ab37;
+    width: 120px;
+    height: 50px;
     position: relative;
     left: $left;
-    bottom: 250px;
+    bottom: $bottom;
+    border-radius: 11%;
+    text-align: center;
+}
+
+@mixin bloc-new__mobil ($left, $bottom) {
+    background-color: #f1f8e9;
+    color: #75ab37;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    left: $left;
+    bottom: $bottom;
     border-radius: 11%;
     text-align: center;
 }
@@ -47,24 +60,26 @@ $color-border: #a5d6a7;
     }
 }
 
-@mixin numero-rond {
+@mixin numero-rond ($font-size, $width, $height) {
     text-align: center;
-    width: 6%;
-    height: 100%;
-    margin-top: 20px;
-    border-radius: 80%;
+    width: $width;
+    height: $height;
+    margin-top: 22px;
+    font-size: $font-size;
+    border-radius: 50%;
     background-color: #ba68c8;
     color: white;
     position: relative;
-    left: 10px;
+    left: 15px;
 }
 
-@mixin texte-work {
+@mixin texte-work ($font-size) {
     width: 80%;
     border-radius: 10px 10px 10px 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    font-size: $font-size;
     background-color: #f5f5f5;
     box-shadow: 2px 10px 25px $color-shadow;
     transition: transform 400ms ease-in-out;
