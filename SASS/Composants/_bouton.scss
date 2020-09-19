@@ -1,3 +1,11 @@
+.home-book__btn {
+    @include bouton-generique (45px auto 45px auto, 1.5rem);
+}
+
+.menu-restaurant__bouton {
+    @include bouton-generique (60px auto 60px auto, 1.5rem);
+}
+
 @media screen and (max-width: 1024px) {
 
     .home-book__btn {
@@ -18,4 +26,3 @@
         @include bouton-generique (60px auto 60px auto, 1rem);
     }
 }
-
