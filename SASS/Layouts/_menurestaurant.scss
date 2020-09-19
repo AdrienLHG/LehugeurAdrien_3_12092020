@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
 
     .menu-restaurant {
         background-color: $background-book;
@@ -6,25 +6,25 @@
         flex-direction: column;
 
         &__photo {
-            height: 235px;
+            height: 600px;
         }
 
         &__photo img {
-            width: 425px;
+            width: 1024px;
         }
 
         &__nom {
             border-radius: 50px 50px 0 0;
-            padding-left: 20px;
+            padding-left: 50px;
         }
 
         &__nom h1 {
             margin-block-end: 0em;
-            font-size: 1.8rem;
+            font-size: 3rem;
         }
 
         &__nom .far {
-            left: 320px;
+            left: 750px;
             bottom: 37px;
         }
 
@@ -33,18 +33,20 @@
             flex-direction: column;
         }
     }
-        .item-titre {
-            font-size: 1.5rem;
-            padding-top: 20px;
-            padding-left: 20px;
 
-            &--border {
-                border-bottom: 2px solid;
-                border-color: $color-border;
-            }
+    .item-titre {
+        font-size: 2.5rem;
+        padding-top: 20px;
+        padding-left: 50px;
+
+        &--border {
+            border-bottom: 3px solid;
+            border-color: $color-border;
         }
+    }
+
     .item {
-        @include item;
+        @include item (30px auto auto 50px, 80px);
 
         &:hover {
             & > .item__progress {
@@ -75,37 +77,128 @@
         &__choix h2 {
             margin-block-start: 0em;
             margin-block-end: 0em;
-            font-size: 1rem;
+            font-size: 1.8rem;
+        }
+
+        &__choix p {
+            font-size: 1.5rem;
         }
 
         &__prix {
             position: relative;
-            left: 280px;
-            bottom: 47px;
+            left: 700px;
+            bottom: 90px;
             transition: transform 1000ms cubic-bezier(.32,0,.07,1);
         }
 
         &__progress {
-            border-radius: 0 13px 15px 0;
-            height: 80px;
-            width: 80px;
-            position: relative;
-            background-color: $color-border;
-            left: 270px;
-            bottom: 111px;
-            transform-origin: right;
-            transform: scaleX(0);
-            transition: transform 1000ms cubic-bezier(.32,0,.07,1);
+            @include progress-bar (754px, 179px, 110px);
         }
 
         &__progress i {
             position: relative;
-            left: 25px;
-            top: 25px;
+            left: 20px;
+            top: 32px;
             opacity: 1;
             color: white;
-            font-size: 2rem;
+            font-size: 2.5rem;
             transition: transform 1000ms cubic-bezier(.32,0,.07,1);
+        }
+
+        &__prix h2 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu-restaurant {
+        &__photo img {
+            width: 768px;
+        }
+
+        &__photo {
+            height: 390px;
+        }
+
+        &__nom .far {
+            left: 570px;
+            bottom: 55px
+        }
+    }
+
+    .item {
+        &__progress {
+            @include progress-bar (549px, 179px, 110px);
+        }
+
+        &__prix {
+            left: 520px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .menu-restaurant {
+        &__photo img {
+            width: 425px;
+        }
+
+        &__photo {
+            height: 220px;
+        }
+
+        &__nom .far {
+            left: 296px;
+            bottom: 31px;
+            font-size: 2.1rem;
+        }
+
+        &__nom {
+            border-radius: 50px 50px 0 0;
+            padding-left: 30px;
+        }
+
+        &__nom h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .item-titre {
+        font-size: 1.5rem;
+        padding-left: 30px;
+
+        &--border {
+            border-bottom: 2px solid;
+            border-color: $color-border;
+        }
+    }
+
+    .item {
+        @include item (30px auto auto 30px, 50px);
+
+        &__choix h2 {
+            font-size: 1rem;
+        }
+
+        &__choix p {
+            font-size: 1rem;
+        }
+
+        &__prix {
+            left: 280px;
+            bottom: 50px;
+        }
+
+        &__progress {
+            @include progress-bar (275px, 116px, 80px);
+        }
+
+        &__progress i {
+            left: 20px;
+            top: 20px;
         }
 
         &__prix h2 {
@@ -113,114 +206,90 @@
         }
     }
 }
-/*//////////// corriger le problème de photo en haut à partir de ce format/////////////////////*/
+
 @media screen and (max-width: 375px) {
 
-    .menu-restaurant__photo {
-        width: 375px;
-    }
+    .menu-restaurant {
+        &__photo img {
+            width: 375px;
+        }
 
-    .menu-restaurant__nom h1 {
-        font-size: 1.3rem;
-    }
+        &__photo {
+            height: 215px;
+        }
 
-    .menu-restaurant__nom .far {
-        left: 238px;
-        font-size: 1.6rem;
-        bottom: 26px;
+        &__nom .far {
+            left: 280px;
+            bottom: 31px;
+            font-size: 1.5rem;
+        }
     }
-
     .item {
-        height: 45px;
-
-        &:hover {
-            & > .item__prix {
-                transform: translate(-20px);
-            }
-        }
-
-        &__progress {
-            left: 270px;
-            bottom: 101px;
-            width: 40px;
-            height: 65px;
-        }
-
-        &__progress i {
-            left: 10px;
-            top: 22px;
-            font-size: 1.3rem;
-        }
-
         &__prix {
-            left: 250px;
+            left: 245px;
             bottom: 47px;
         }
 
-        &__prix h2 {
-            font-size: 0.9rem;
-        }
-
-        &__choix h2 {
-            font-size: 0.9rem;
-        }
-
-        &__choix p {
-            font-size: 0.8rem;
+        &__progress {
+            @include progress-bar (235px, 116px, 80px);
         }
     }
 }
-
 @media screen and (max-width: 320px) {
 
-    .menu-restaurant__photo {
-        width: 320px;
-    }
-    .menu-restaurant__nom h1 {
-        font-size: 1.3rem;
+    .menu-restaurant {
+        &__photo img {
+            width: 320px;
+        }
+
+        &__photo {
+            height: 170px;
+        }
+
+        &__nom h1 {
+            font-size: 1rem;
+        }
+
+        &__nom .far {
+            left: 220px;
+            bottom: 20px;
+            font-size: 1.5rem;
+        }
     }
 
-    .menu-restaurant__nom .far {
-        left: 238px;
-        font-size: 1.6rem;
-        bottom: 26px;
+    .item-titre {
+        padding-left: 20px;
     }
+
     .item {
-        height: 45px;
-
-        &:hover {
-            & > .item__prix {
-                transform: translate(-10px);
-            }
-        }
-
-        &__progress {
-            left: 226px;
-            bottom: 91px;
-
-        }
-
-        &__progress i {
-            left: 10px;
-            top: 22px;
-            font-size: 1.3rem;
-        }
-
-        &__prix {
-            left: 210px;
-            bottom: 40px;
-        }
-
-        &__prix h2 {
-            font-size: 0.8rem;
-        }
+        @include item (20px auto auto 20px, 40px);
 
         &__choix h2 {
             font-size: 0.8rem;
         }
 
         &__choix p {
-            font-size: 0.7rem;
+            font-size: 0.8rem;
+        }
+
+        &__prix {
+            left: 220px;
+            bottom: 47px;
+        }
+
+        &__prix p {
+            font-size: 0.8px;
+        }
+
+        &__progress {
+            @include progress-bar (211px, 110px, 72px);
+            width: 60px;
+        }
+
+        &__progress i {
+            left: 13px;
+            top: 20px;
+            font-size: 2rem;
         }
     }
 }
