@@ -118,90 +118,95 @@ footer h4 {
 
   footer .fas {
     font-size: 0.8rem; } }
-@media screen and (max-width: 1024px) {
-  .menu-restaurant {
-    background-color: #fafafa;
+.content-menu {
+  max-width: 1024px;
+  margin: auto; }
+
+.menu-restaurant {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column; }
+  .menu-restaurant__photo {
+    height: 600px; }
+  .menu-restaurant__photo img {
+    width: 1024px; }
+  .menu-restaurant__nom {
+    border-radius: 50px 50px 0 0;
+    padding-left: 50px; }
+  .menu-restaurant__nom h1 {
+    margin-block-end: 0em;
+    font-size: 3rem; }
+  .menu-restaurant__nom .far {
+    left: 750px;
+    bottom: 37px; }
+  .menu-restaurant__entrées {
     display: flex;
     flex-direction: column; }
-    .menu-restaurant__photo {
-      height: 600px; }
-    .menu-restaurant__photo img {
-      width: 1024px; }
-    .menu-restaurant__nom {
-      border-radius: 50px 50px 0 0;
-      padding-left: 50px; }
-    .menu-restaurant__nom h1 {
-      margin-block-end: 0em;
-      font-size: 3rem; }
-    .menu-restaurant__nom .far {
-      left: 750px;
-      bottom: 37px; }
-    .menu-restaurant__entrées {
-      display: flex;
-      flex-direction: column; }
 
-  .item-titre {
+.item-titre {
+  font-size: 2.5rem;
+  padding-top: 20px;
+  padding-left: 50px; }
+  .item-titre--border {
+    border-bottom: 3px solid;
+    border-color: #99E2D0; }
+
+.item {
+  width: 80%;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px;
+  margin: 30px auto auto 50px;
+  background-color: #f5f5f5;
+  box-shadow: 2px 10px 25px #bdbdbd;
+  height: 80px;
+  transform: scaleX(1);
+  animation: menu-in 1500ms 200ms ease-in-out both; }
+  .item:hover > .item__progress {
+    transform: scaleX(1); }
+  .item:hover > .item__progress i {
+    transform: rotate(360deg); }
+  .item:hover > .item__prix {
+    transform: translate(-50px); }
+  .item--2 {
+    animation-delay: 400ms; }
+  .item--3 {
+    animation-delay: 600ms; }
+  .item--4 {
+    animation-delay: 800ms; }
+  .item__choix h2 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 1.8rem; }
+  .item__choix p {
+    font-size: 1.5rem; }
+  .item__prix {
+    position: relative;
+    width: 50px;
+    left: 700px;
+    bottom: 90px;
+    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
+  .item__progress {
+    border-radius: 0 13px 15px 0;
+    height: 110px;
+    width: 80px;
+    position: relative;
+    background-color: #99E2D0;
+    left: 754px;
+    bottom: 179px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
+  .item__progress i {
+    position: relative;
+    left: 20px;
+    top: 32px;
+    opacity: 1;
+    color: white;
     font-size: 2.5rem;
-    padding-top: 20px;
-    padding-left: 50px; }
-    .item-titre--border {
-      border-bottom: 3px solid;
-      border-color: #99E2D0; }
+    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
+  .item__prix h2 {
+    font-size: 1.5rem; }
 
-  .item {
-    width: 80%;
-    border-radius: 15px 15px 15px 15px;
-    padding: 15px;
-    margin: 30px auto auto 50px;
-    background-color: #f5f5f5;
-    box-shadow: 2px 10px 25px #bdbdbd;
-    height: 80px;
-    transform: scaleX(1);
-    animation: menu-in 1500ms 200ms ease-in-out both; }
-    .item:hover > .item__progress {
-      transform: scaleX(1); }
-    .item:hover > .item__progress i {
-      transform: rotate(360deg); }
-    .item:hover > .item__prix {
-      transform: translate(-50px); }
-    .item--2 {
-      animation-delay: 400ms; }
-    .item--3 {
-      animation-delay: 600ms; }
-    .item--4 {
-      animation-delay: 800ms; }
-    .item__choix h2 {
-      margin-block-start: 0em;
-      margin-block-end: 0em;
-      font-size: 1.8rem; }
-    .item__choix p {
-      font-size: 1.5rem; }
-    .item__prix {
-      position: relative;
-      left: 700px;
-      bottom: 90px;
-      transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
-    .item__progress {
-      border-radius: 0 13px 15px 0;
-      height: 110px;
-      width: 80px;
-      position: relative;
-      background-color: #99E2D0;
-      left: 754px;
-      bottom: 179px;
-      transform-origin: right;
-      transform: scaleX(0);
-      transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
-    .item__progress i {
-      position: relative;
-      left: 20px;
-      top: 32px;
-      opacity: 1;
-      color: white;
-      font-size: 2.5rem;
-      transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
-    .item__prix h2 {
-      font-size: 1.5rem; } }
 @media screen and (max-width: 768px) {
   .menu-restaurant__photo img {
     width: 768px; }
