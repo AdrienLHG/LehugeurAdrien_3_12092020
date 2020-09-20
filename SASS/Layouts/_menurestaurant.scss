@@ -77,6 +77,10 @@
         animation-delay: 800ms;
     }
 
+    &__choix {
+        width: 90%;
+    }
+
     &__choix h2 {
         margin-block-start: 0em;
         margin-block-end: 0em;
@@ -88,15 +92,11 @@
     }
 
     &__prix {
-        position: relative;
-        width: 50px;
-        left: 700px;
-        bottom: 90px;
         transition: transform 1000ms cubic-bezier(.32,0,.07,1);
     }
-    
+
     &__progress {
-        @include progress-bar (754px, 179px, 110px);
+        @include progress-bar (110px);
     }
 
     &__progress i {
@@ -133,7 +133,7 @@
 
     .item {
         &__progress {
-            @include progress-bar (549px, 179px, 110px);
+            @include progress-bar (110px);
         }
 
         &__prix {
@@ -196,7 +196,7 @@
         }
 
         &__progress {
-            @include progress-bar (275px, 116px, 80px);
+            @include progress-bar (80px);
         }
 
         &__progress i {
@@ -234,7 +234,7 @@
         }
 
         &__progress {
-            @include progress-bar (235px, 116px, 80px);
+            @include progress-bar (80px);
         }
     }
 }
@@ -267,12 +267,16 @@
     .item {
         @include item (20px auto auto 20px, 40px);
 
+        &__choix {
+            width: 140%;
+        }
+
         &__choix h2 {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
         }
 
         &__choix p {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
         }
 
         &__prix {
@@ -285,7 +289,7 @@
         }
 
         &__progress {
-            @include progress-bar (211px, 110px, 72px);
+            @include progress-bar (70px);
             width: 60px;
         }
 

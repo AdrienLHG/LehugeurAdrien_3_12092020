@@ -95,6 +95,7 @@ $color-border: #99E2D0;
 
 @mixin item ($margin, $height) {
     width: 80%;
+    display:flex;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: $margin;
@@ -105,14 +106,14 @@ $color-border: #99E2D0;
     animation: menu-in 1500ms 200ms ease-in-out both;
 }
 
-@mixin progress-bar ($left, $bottom, $height) {
+@mixin progress-bar ($height) {
     border-radius: 0 13px 15px 0;
     height: $height;
     width: 80px;
     position: relative;
     background-color: $color-border;
-    left: $left;
-    bottom: $bottom;
+    left: 16px;
+    bottom: 15px;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 1000ms cubic-bezier(.32,0,.07,1);

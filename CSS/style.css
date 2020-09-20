@@ -153,6 +153,7 @@ footer h4 {
 
 .item {
   width: 80%;
+  display: flex;
   border-radius: 15px 15px 15px 15px;
   padding: 15px;
   margin: 30px auto auto 50px;
@@ -173,6 +174,8 @@ footer h4 {
     animation-delay: 600ms; }
   .item--4 {
     animation-delay: 800ms; }
+  .item__choix {
+    width: 90%; }
   .item__choix h2 {
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -180,10 +183,6 @@ footer h4 {
   .item__choix p {
     font-size: 1.5rem; }
   .item__prix {
-    position: relative;
-    width: 50px;
-    left: 700px;
-    bottom: 90px;
     transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
   .item__progress {
     border-radius: 0 13px 15px 0;
@@ -191,8 +190,8 @@ footer h4 {
     width: 80px;
     position: relative;
     background-color: #99E2D0;
-    left: 754px;
-    bottom: 179px;
+    left: 16px;
+    bottom: 15px;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
@@ -222,8 +221,8 @@ footer h4 {
     width: 80px;
     position: relative;
     background-color: #99E2D0;
-    left: 549px;
-    bottom: 179px;
+    left: 16px;
+    bottom: 15px;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
@@ -253,6 +252,7 @@ footer h4 {
 
   .item {
     width: 80%;
+    display: flex;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: 30px auto auto 30px;
@@ -274,8 +274,8 @@ footer h4 {
       width: 80px;
       position: relative;
       background-color: #99E2D0;
-      left: 275px;
-      bottom: 116px;
+      left: 16px;
+      bottom: 15px;
       transform-origin: right;
       transform: scaleX(0);
       transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
@@ -303,8 +303,8 @@ footer h4 {
     width: 80px;
     position: relative;
     background-color: #99E2D0;
-    left: 235px;
-    bottom: 116px;
+    left: 16px;
+    bottom: 15px;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); } }
@@ -325,6 +325,7 @@ footer h4 {
 
   .item {
     width: 80%;
+    display: flex;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: 20px auto auto 20px;
@@ -333,10 +334,12 @@ footer h4 {
     height: 40px;
     transform: scaleX(1);
     animation: menu-in 1500ms 200ms ease-in-out both; }
+    .item__choix {
+      width: 140%; }
     .item__choix h2 {
-      font-size: 0.8rem; }
+      font-size: 0.75rem; }
     .item__choix p {
-      font-size: 0.8rem; }
+      font-size: 0.75rem; }
     .item__prix {
       left: 220px;
       bottom: 47px; }
@@ -344,12 +347,12 @@ footer h4 {
       font-size: 0.8px; }
     .item__progress {
       border-radius: 0 13px 15px 0;
-      height: 72px;
+      height: 70px;
       width: 80px;
       position: relative;
       background-color: #99E2D0;
-      left: 211px;
-      bottom: 110px;
+      left: 16px;
+      bottom: 15px;
       transform-origin: right;
       transform: scaleX(0);
       transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
