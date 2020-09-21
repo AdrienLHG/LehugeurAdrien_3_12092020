@@ -95,6 +95,10 @@ aside {
     margin-left: 30px;
 }
 
+.preview-restaurant .fas {
+    align-self: center;
+    animation: rotate-center 1500ms 500ms ease-in-out 3 both;
+}
 .home-restaurant a {
     color: black;
     text-decoration: none;

@@ -26,5 +26,28 @@
     }
 }
 
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+        opacity: 1;
+        font-size: 5rem;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0.1;
+        font-size: 4rem;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+        font-size: 0rem;
+    }
+}
+
 
 
