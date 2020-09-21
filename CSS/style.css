@@ -274,11 +274,16 @@ footer h4 {
     box-shadow: 2px 10px 25px #bdbdbd;
     height: 50px;
     transform: scaleX(1);
-    animation: menu-in 1500ms 200ms ease-in-out both; }
+    animation: menu-in 1500ms 200ms ease-in-out both;
+    width: 78%; }
+    .item:hover > .item__prix {
+      transform: translate(-20px); }
+    .item__choix {
+      width: 150%; }
     .item__choix h2 {
-      font-size: 1rem; }
+      font-size: 0.8rem; }
     .item__choix p {
-      font-size: 1rem; }
+      font-size: 0.8rem; }
     .item__prix {
       left: 280px;
       bottom: 50px; }
@@ -294,8 +299,9 @@ footer h4 {
       transform: scaleX(0);
       transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
     .item__progress i {
-      left: 20px;
-      top: 20px; }
+      font-size: 1.8rem;
+      left: 7px;
+      top: 26px; }
     .item__prix h2 {
       font-size: 1rem; } }
 @media screen and (max-width: 375px) {
@@ -372,9 +378,9 @@ footer h4 {
       transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
       width: 60px; }
     .item__progress i {
-      left: 13px;
-      top: 20px;
-      font-size: 2rem; } }
+      font-size: 1.6rem;
+      left: 4px;
+      top: 23px; } }
 content {
   display: flex; }
 

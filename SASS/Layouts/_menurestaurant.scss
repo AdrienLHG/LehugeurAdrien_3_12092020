@@ -181,13 +181,25 @@
 
     .item {
         @include item (30px auto auto 30px, 50px);
+        width: 78%;
+
+        &:hover {
+
+            & > .item__prix {
+                transform: translate(-20px);
+            }
+        }
+
+        &__choix {
+            width: 150%;
+        }
 
         &__choix h2 {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
 
         &__choix p {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
 
         &__prix {
@@ -200,8 +212,9 @@
         }
 
         &__progress i {
-            left: 20px;
-            top: 20px;
+            font-size: 1.8rem;
+            left: 7px;
+            top: 26px;
         }
 
         &__prix h2 {
@@ -294,9 +307,9 @@
         }
 
         &__progress i {
-            left: 13px;
-            top: 20px;
-            font-size: 2rem;
+            font-size: 1.6rem;
+            left: 4px;
+            top: 23px;
         }
     }
 }
