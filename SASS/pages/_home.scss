@@ -140,7 +140,7 @@ aside {
     }
 }
 
-.far {
+.home-restaurant .far {
     font-size: 3.5rem;
     position: relative;
     left: 800px;
@@ -159,9 +159,9 @@ aside {
     }
 
     .localisation {
-        background-color: #fafafa;
+        background-color: darken(#fafafa, 4%);
         height: 60px;
-        box-shadow: 0px 8px 30px $color-shadow;
+        box-shadow: 0px 6px 30px $color-shadow;
         padding-top: 5px;
     }
 
