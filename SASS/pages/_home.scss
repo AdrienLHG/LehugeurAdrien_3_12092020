@@ -55,7 +55,7 @@ aside {
     display: flex;
 
     &__number {
-        @include numero-rond (2rem, 12%, 56px);
+        @include numero-rond (2rem, 56px, 56px);
         left: 0px;
         font-size: 2rem;
         margin-top: 8px;
@@ -182,7 +182,7 @@ aside {
 
     .home-work {
         &__number {
-            @include numero-rond (2rem, 6%, 56px);
+            @include numero-rond (2rem, 56px, 56px);
         }
 
         &__texte {
@@ -245,7 +245,7 @@ aside {
 
     .home-work {
         &__number {
-            @include numero-rond (2rem, 7%, 53px);
+            @include numero-rond (2rem, 53px, 53px);
         }
     }
 
@@ -289,7 +289,7 @@ aside {
         font-size: 2rem;
 
         &__number {
-            @include numero-rond (1.2rem, 9%, 34px);
+            @include numero-rond (1.2rem, 34px, 34px);
             margin-top: 17px;
         }
 
@@ -370,7 +370,7 @@ aside {
     }
 
     .home-work__number {
-        @include numero-rond (1.2rem, 10%, 34px);
+        @include numero-rond (1.2rem, 34px, 34px);
     }
 
     .home-work__texte .fa-bars {
@@ -425,7 +425,7 @@ aside {
         font-size: 2rem;
 
         &__number {
-            @include numero-rond (1rem, 19%, 27px);
+            @include numero-rond (1rem, 27px, 27px);
             margin-top: 21px;
         }
 

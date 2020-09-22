@@ -16,10 +16,13 @@ $color-border: #99E2D0;
     background-color: $color-btn-order;
     color: white;
     box-shadow: 2px 10px 25px $color-shadow;
+    transition: transform 400ms ease-in-out;
 
     &:hover {
+        background-color: lighten($color-btn-order, 5%);
         cursor: pointer;
         transform: scale(1.2);
+        box-shadow: 2px 25px 30px $color-shadow;
     }
 }
 
@@ -86,11 +89,11 @@ $color-border: #99E2D0;
     transition: transform 400ms ease-in-out;
 
     &:hover {
-        background-color: $color-btn-order;
-        opacity: 50%;
+        background-color: lighten(#f5f5f5, 2%);
+        opacity: 70%;
+        box-shadow: 2px 20px 30px $color-shadow;
         cursor: pointer;
-        transform: scale(1.12);
-        color: white;
+        transform: scale(1.05);
     }
 }
 
