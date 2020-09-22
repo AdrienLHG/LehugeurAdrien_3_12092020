@@ -2,7 +2,8 @@
 /*/////remplissage icône//////*/
 .far:hover {
   font-weight: bold;
-  color: #FF79DA; }
+  color: #FF79DA;
+  animation: heart 2000ms ease-in-out both; }
 
 /*/////animation apparition menu//////*/
 @keyframes menu-in {
@@ -30,6 +31,11 @@
     transform: rotate(360deg);
     opacity: 0;
     font-size: 0rem; } }
+@keyframes heart {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
 p, h2, h3 {
   font-family: 'Athiti', sans-serif; }
 
@@ -804,6 +810,18 @@ aside {
     text-align: center;
     padding: 15px; }
 
+  .home-work__number {
+    text-align: center;
+    width: 10%;
+    height: 34px;
+    margin-top: 22px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: #ba68c8;
+    color: white;
+    position: relative;
+    left: 15px; }
+
   .home-work__texte .fa-bars {
     margin-right: 24px; }
 
@@ -853,7 +871,7 @@ aside {
     font-size: 2rem; }
     .home-work__number {
       text-align: center;
-      width: 10%;
+      width: 19%;
       height: 27px;
       margin-top: 22px;
       font-size: 1rem;

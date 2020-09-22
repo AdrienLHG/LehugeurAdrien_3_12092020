@@ -3,6 +3,7 @@
 .far:hover {
     font-weight: bold;
     color: $color-btn-order;
+    animation: heart 2000ms ease-in-out both;
 }
 
 /*/////animation apparition menu//////*/
@@ -46,6 +47,16 @@
         transform: rotate(360deg);
         opacity: 0;
         font-size: 0rem;
+    }
+}
+
+@keyframes heart {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 
