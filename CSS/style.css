@@ -653,7 +653,7 @@ aside {
     text-decoration: none; }
 
   .home-restaurant {
-    width: 950px;
+    width: 93%;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -662,10 +662,8 @@ aside {
     animation: menu-in 1500ms 3500ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__image {
-      width: 950px; }
     .home-restaurant__image img {
-      width: 950px; }
+      width: 952px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -693,7 +691,7 @@ aside {
     left: 15px; }
 
   .home-restaurant {
-    width: 700px;
+    width: 92%;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -702,10 +700,8 @@ aside {
     animation: menu-in 1500ms 3500ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__image {
-      width: 700px; }
     .home-restaurant__image img {
-      width: 700px;
+      width: 707px;
       height: 470px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
@@ -773,7 +769,7 @@ aside {
       margin-left: 37px; }
 
   .home-restaurant {
-    width: 360px;
+    width: 88%;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -783,10 +779,9 @@ aside {
     .home-restaurant:hover {
       cursor: pointer; }
     .home-restaurant__image {
-      width: 360px;
       height: 200px; }
     .home-restaurant__image img {
-      width: 360px;
+      width: 374px;
       height: 245px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
@@ -842,7 +837,7 @@ aside {
     margin-right: 25px; }
 
   .home-restaurant {
-    width: 310px;
+    width: 85%;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -852,10 +847,9 @@ aside {
     .home-restaurant:hover {
       cursor: pointer; }
     .home-restaurant__image {
-      width: 310px;
       height: 200px; }
     .home-restaurant__image img {
-      width: 310px;
+      width: 319px;
       height: 200px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
@@ -919,7 +913,7 @@ aside {
     font-size: 2rem; }
 
   .home-restaurant {
-    width: 260px;
+    width: 81%;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -929,7 +923,6 @@ aside {
     .home-restaurant:hover {
       cursor: pointer; }
     .home-restaurant__image {
-      width: 260px;
       height: 170px; }
     .home-restaurant__image img {
       width: 260px;

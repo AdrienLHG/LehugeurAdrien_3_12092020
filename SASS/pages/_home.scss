@@ -228,14 +228,10 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (950px);
-
-        &__image {
-            width: 950px;
-        }
+        @include preview-restaurant (93%);
 
         &__image img {
-            width: 950px;
+            width: 952px;
         }
 
         &__new {
@@ -257,14 +253,10 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (700px);
-
-        &__image {
-            width: 700px;
-        }
+        @include preview-restaurant (92%);
 
         &__image img {
-            width: 700px;
+            width: 707px;
             height: 470px;
         }
 
@@ -330,15 +322,14 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (360px);
+        @include preview-restaurant (88%);
 
         &__image {
-            width: 360px;
             height: 200px;
         }
 
         &__image img {
-            width: 360px;
+            width: 374px;
             height: 245px;
         }
 
@@ -399,15 +390,14 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (310px);
+        @include preview-restaurant (85%);
 
         &__image {
-            width: 310px;
             height: 200px;
         }
 
         &__image img {
-            width: 310px;
+            width: 319px;
             height: 200px;
         }
 
@@ -460,10 +450,9 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (260px);
+        @include preview-restaurant (81%);
 
         &__image {
-            width: 260px;
             height: 170px;
         }
 
