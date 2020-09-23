@@ -7,7 +7,7 @@
     background-color: $background-book;
     display: flex;
     flex-direction: column;
-    width: 1024px;
+    width: 100%;
 
     &__photo {
         height: 610px;
@@ -127,8 +127,6 @@
 @media screen and (max-width: 768px) {
 
     .menu-restaurant {
-        width: 768px;
-
         &__photo img {
             width: 100%;
         }
@@ -162,8 +160,6 @@
 @media screen and (max-width: 425px) {
 
     .menu-restaurant {
-        width: 425px;
-
         &__photo img {
             width: 100%;
         }
@@ -256,8 +252,6 @@
 @media screen and (max-width: 375px) {
 
     .menu-restaurant {
-        width: 375px;
-
         &__photo img {
             width: 100%;
         }
@@ -291,8 +285,6 @@
 @media screen and (max-width: 320px) {
 
     .menu-restaurant {
-        width: 320px;
-
         &__photo img {
             width: 100%;
         }

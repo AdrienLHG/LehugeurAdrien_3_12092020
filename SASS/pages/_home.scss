@@ -8,6 +8,7 @@ aside {
     display: flex;
     flex-direction: column;
     background-color: darken($background-book, 3%);
+    width: 35%;
 }
 
 .localisation {
@@ -90,6 +91,7 @@ aside {
     display: flex;
     flex-direction: column;
     background-color: $background-book;
+    width: 65%;
 }
 
 .preview-restaurant h2 {
@@ -166,6 +168,7 @@ aside {
 
     aside {
         background-color: white;
+        width: 100%;
     }
 
     .localisation {
@@ -222,6 +225,7 @@ aside {
         display: flex;
         flex-direction: column;
         background-color: $background-book;
+        width: 100%;
     }
 
     .preview-restaurant h2 {
@@ -242,7 +246,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new (800px, 600px);
+            @include bloc-new (80%, 600px);
         }
     }
 }
@@ -268,7 +272,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new (550px, 430px);
+            @include bloc-new (75%, 430px);
         }
 
         .far {
@@ -341,7 +345,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new__mobil (280px, 220px);
+            @include bloc-new__mobil (75%, 220px);
         }
 
         &__new p {
@@ -408,7 +412,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new__mobil (230px, 185px);
+            @include bloc-new__mobil (72%, 185px);
         }
 
         &__new p {
@@ -473,7 +477,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new__mobil (180px, 150px);
+            @include bloc-new__mobil (70%, 150px);
         }
 
         &__new p {
