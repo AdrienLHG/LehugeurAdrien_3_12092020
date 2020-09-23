@@ -427,7 +427,7 @@ footer h4 {
         top: 23px; } }
 content {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   margin: auto; }
 
 aside {
@@ -576,7 +576,7 @@ aside {
 /*/////// Responsive format Tablette//////////*/
 @media screen and (max-width: 1024px) {
   content {
-    display: flex;
+    max-width: 1024px;
     flex-direction: column; }
 
   aside {
@@ -676,6 +676,9 @@ aside {
       border-radius: 11%;
       text-align: center; } }
 @media screen and (max-width: 768px) {
+  content {
+    max-width: 728px; }
+
   .home-work__number {
     text-align: center;
     width: 53px;
@@ -715,6 +718,9 @@ aside {
     .home-restaurant .far {
       left: 580px; } }
 @media screen and (max-width: 425px) {
+  content {
+    max-width: 425px; }
+
   .home-book__title {
     text-align: center;
     font-size: 2rem; }
@@ -801,6 +807,9 @@ aside {
       left: 300px;
       bottom: 60px; } }
 @media screen and (max-width: 375px) {
+  content {
+    max-width: 375px; }
+
   .localisation {
     height: 40px; }
 
@@ -864,6 +873,9 @@ aside {
       left: 260px;
       bottom: 60px; } }
 @media screen and (max-width: 320px) {
+  content {
+    max-width: 320px; }
+
   .menu-work h2 {
     font-size: 2rem; }
 

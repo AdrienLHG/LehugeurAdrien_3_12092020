@@ -1,6 +1,6 @@
 content {
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -152,7 +152,7 @@ aside {
 @media screen and (max-width: 1024px) {
 
     content {
-        display: flex;
+        max-width: 1024px;
         flex-direction: column;
     }
 
@@ -245,6 +245,10 @@ aside {
 
 @media screen and (max-width: 768px) {
 
+    content {
+        max-width: 728px;
+    }
+
     .home-work {
         &__number {
             @include numero-rond (2rem, 53px, 53px);
@@ -273,6 +277,10 @@ aside {
 }
 
 @media screen and (max-width: 425px) {
+
+    content {
+        max-width: 425px;
+    }
 
     .home-book {
 
@@ -358,6 +366,10 @@ aside {
 
 @media screen and (max-width: 375px) {
 
+    content {
+        max-width: 375px;
+    }
+
     .localisation {
         height: 40px;
     }
@@ -418,6 +430,9 @@ aside {
 
 @media screen and (max-width: 320px) {
 
+    content {
+        max-width: 320px;
+    }
     .menu-work h2 {
         font-size: 2rem;
     }
