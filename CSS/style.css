@@ -544,7 +544,8 @@ aside {
     overflow: hidden;
     border-radius: 25px 25px 0 0; }
   .home-restaurant__image img {
-    width: 950px; }
+    width: 950px;
+    height: 640px; }
   .home-restaurant__title {
     margin-left: 25px;
     margin-block-start: 0.8em;
@@ -677,7 +678,7 @@ aside {
       text-align: center; } }
 @media screen and (max-width: 768px) {
   content {
-    max-width: 728px; }
+    max-width: 768px; }
 
   .home-work__number {
     text-align: center;
@@ -704,7 +705,8 @@ aside {
     .home-restaurant__image {
       width: 700px; }
     .home-restaurant__image img {
-      width: 700px; }
+      width: 700px;
+      height: 470px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -784,7 +786,8 @@ aside {
       width: 360px;
       height: 200px; }
     .home-restaurant__image img {
-      width: 360px; }
+      width: 360px;
+      height: 245px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -852,7 +855,8 @@ aside {
       width: 310px;
       height: 200px; }
     .home-restaurant__image img {
-      width: 310px; }
+      width: 310px;
+      height: 200px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -860,7 +864,7 @@ aside {
       height: 30px;
       position: relative;
       left: 230px;
-      bottom: 200px;
+      bottom: 185px;
       border-radius: 11%;
       text-align: center; }
     .home-restaurant__new p {
@@ -928,7 +932,8 @@ aside {
       width: 260px;
       height: 170px; }
     .home-restaurant__image img {
-      width: 260px; }
+      width: 260px;
+      height: 170px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -936,7 +941,7 @@ aside {
       height: 30px;
       position: relative;
       left: 180px;
-      bottom: 160px;
+      bottom: 150px;
       border-radius: 11%;
       text-align: center; }
     .home-restaurant__new p {

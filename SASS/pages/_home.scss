@@ -118,6 +118,7 @@ aside {
 
     &__image img {
         width: 950px;
+        height: 640px
     }
 
     &__title {
@@ -246,7 +247,7 @@ aside {
 @media screen and (max-width: 768px) {
 
     content {
-        max-width: 728px;
+        max-width: 768px;
     }
 
     .home-work {
@@ -264,6 +265,7 @@ aside {
 
         &__image img {
             width: 700px;
+            height: 470px;
         }
 
         &__new {
@@ -337,6 +339,7 @@ aside {
 
         &__image img {
             width: 360px;
+            height: 245px;
         }
 
         &__new {
@@ -405,10 +408,11 @@ aside {
 
         &__image img {
             width: 310px;
+            height: 200px;
         }
 
         &__new {
-            @include bloc-new__mobil (230px, 200px);
+            @include bloc-new__mobil (230px, 185px);
         }
 
         &__new p {
@@ -465,10 +469,11 @@ aside {
 
         &__image img {
             width: 260px;
+            height: 170px;
         }
 
         &__new {
-            @include bloc-new__mobil (180px, 160px);
+            @include bloc-new__mobil (180px, 150px);
         }
 
         &__new p {
