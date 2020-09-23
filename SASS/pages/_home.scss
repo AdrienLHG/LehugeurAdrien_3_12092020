@@ -1,5 +1,7 @@
 content {
     display: flex;
+    width: 1440px;
+    margin: auto;
 }
 
 aside {
@@ -263,10 +265,10 @@ aside {
         &__new {
             @include bloc-new (550px, 430px);
         }
-    }
 
-    .far {
-        left: 600px;
+        .far {
+            left: 580px;
+        }
     }
 }
 

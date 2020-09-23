@@ -426,7 +426,9 @@ footer h4 {
         left: 4px;
         top: 23px; } }
 content {
-  display: flex; }
+  display: flex;
+  width: 1440px;
+  margin: auto; }
 
 aside {
   display: flex;
@@ -710,9 +712,8 @@ aside {
       bottom: 430px;
       border-radius: 11%;
       text-align: center; }
-
-  .far {
-    left: 600px; } }
+    .home-restaurant .far {
+      left: 580px; } }
 @media screen and (max-width: 425px) {
   .home-book__title {
     text-align: center;
