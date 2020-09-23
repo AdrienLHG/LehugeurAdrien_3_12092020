@@ -145,7 +145,7 @@ aside {
     }
 
     &__new {
-        @include bloc-new (750px, 610px);
+        @include bloc-new (80%, 610px);
     }
 
     &__new p {
@@ -246,7 +246,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new (80%, 600px);
+            @include bloc-new (77%, 600px);
         }
     }
 }
@@ -267,7 +267,6 @@ aside {
         @include preview-restaurant (92%);
 
         &__image img {
-            width: 707px;
             height: 470px;
         }
 
@@ -426,8 +425,7 @@ aside {
 
         .far {
             font-size: 1.8rem;
-            left: 260px;
-            bottom: 60px;
+            margin-top: 20px;
         }
     }
 }
