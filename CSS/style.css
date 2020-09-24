@@ -495,15 +495,15 @@ aside {
       cursor: pointer;
       transform: scale(1.05); }
   .home-work__texte .fa-ellipsis-v {
-    margin-left: 48px; }
+    margin-left: 5%; }
   .home-work__texte .fa-bars {
-    margin-right: 35px; }
+    margin-right: 5%; }
   .home-work__texte .fa-mobile-alt {
-    margin-right: 40px;
-    margin-left: 54px; }
+    margin-right: 6%;
+    margin-left: 7%; }
   .home-work__texte .fa-store {
-    margin-right: 33px;
-    margin-left: 51px; }
+    margin-right: 5%;
+    margin-left: 5%; }
 
 .preview-restaurant {
   display: flex;
@@ -614,7 +614,8 @@ aside {
     background-color: #ba68c8;
     color: white;
     position: relative;
-    left: 15px; }
+    left: 15px;
+    margin-top: 21px; }
   .home-work__texte {
     width: 80%;
     border-radius: 10px 10px 10px 10px;
@@ -632,15 +633,15 @@ aside {
       cursor: pointer;
       transform: scale(1.05); }
   .home-work__texte .fa-ellipsis-v {
-    margin-left: 53px; }
+    margin-left: 8%; }
   .home-work__texte .fa-bars {
-    margin-right: 41px; }
+    margin-right: 7.5%; }
   .home-work__texte .fa-mobile-alt {
-    margin-right: 50px;
-    margin-left: 65px; }
+    margin-right: 8%;
+    margin-left: 10%; }
   .home-work__texte .fa-store {
-    margin-right: 37px;
-    margin-left: 57px; }
+    margin-right: 7.5%;
+    margin-left: 8%; }
 
   .preview-restaurant {
     display: flex;
@@ -682,6 +683,22 @@ aside {
   content {
     max-width: 768px; }
 
+  .home-work__texte {
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    background-color: #f5f5f5;
+    box-shadow: 2px 10px 25px #bdbdbd;
+    transition: transform 400ms ease-in-out; }
+    .home-work__texte:hover {
+      background-color: #fafafa;
+      opacity: 70%;
+      box-shadow: 2px 20px 30px #bdbdbd;
+      cursor: pointer;
+      transform: scale(1.05); }
   .home-work__number {
     text-align: center;
     width: 53px;
@@ -692,9 +709,9 @@ aside {
     background-color: #ba68c8;
     color: white;
     position: relative;
-    left: 15px; }
-
-  .home-restaurant {
+    left: 15px;
+    margin-top: 15px; }
+  .home-work .home-restaurant {
     width: 92%;
     height: auto;
     display: flex;
@@ -704,9 +721,9 @@ aside {
     border-radius: 25px 25px 25px 25px;
     box-shadow: 2px 10px 25px #bdbdbd;
     animation: menu-in 1500ms 3500ms ease-in-out both; }
-    .home-restaurant:hover {
+    .home-work .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__new {
+    .home-work .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
       width: 90px;
@@ -716,12 +733,12 @@ aside {
       bottom: 330px;
       border-radius: 11%;
       text-align: center; }
-    .home-restaurant__new p {
+    .home-work .home-restaurant__new p {
       padding-top: 2px;
       font-size: 1.2rem; }
-    .home-restaurant__image {
+    .home-work .home-restaurant__image {
       height: 270px; }
-    .home-restaurant .far {
+    .home-work .home-restaurant .far {
       margin-top: 40px; } }
 @media screen and (max-width: 425px) {
   content {
@@ -747,7 +764,7 @@ aside {
       color: white;
       position: relative;
       left: 15px;
-      margin-top: 17px; }
+      margin-top: 16px; }
     .home-work__texte {
       width: 80%;
       border-radius: 10px 10px 10px 10px;
@@ -765,16 +782,15 @@ aside {
         cursor: pointer;
         transform: scale(1.05); }
     .home-work__texte .fa-ellipsis-v {
-      margin-left: 36px;
-      margin-right: 1px; }
-    .home-work home-work__texte .fa-bars {
-      margin-right: 26px; }
+      margin-left: 10%; }
+    .home-work__texte .fa-bars {
+      margin-right: 8%; }
     .home-work__texte .fa-mobile-alt {
-      margin-right: 30px;
-      margin-left: 40px; }
+      margin-right: 9%;
+      margin-left: 12%; }
     .home-work__texte .fa-store {
-      margin-right: 27px;
-      margin-left: 37px; }
+      margin-right: 7.5%;
+      margin-left: 11%; }
 
   .home-restaurant {
     width: 88%;
@@ -834,13 +850,8 @@ aside {
     background-color: #ba68c8;
     color: white;
     position: relative;
-    left: 15px; }
-
-  .home-work__texte .fa-bars {
-    margin-right: 24px; }
-
-  .home-work__texte .fa-store {
-    margin-right: 25px; }
+    left: 15px;
+    margin-top: 17px; }
 
   .home-restaurant {
     width: 85%;
@@ -898,7 +909,7 @@ aside {
       color: white;
       position: relative;
       left: 15px;
-      margin-top: 21px; }
+      margin-top: 17px; }
     .home-work__texte {
       width: 80%;
       border-radius: 10px 10px 10px 10px;
@@ -915,6 +926,14 @@ aside {
         box-shadow: 2px 20px 30px #bdbdbd;
         cursor: pointer;
         transform: scale(1.05); }
+    .home-work__texte .fa-ellipsis-v {
+      margin-left: 14%; }
+    .home-work__texte .fa-mobile-alt {
+      margin-right: 10%;
+      margin-left: 15%; }
+    .home-work__texte .fa-store {
+      margin-right: 7.5%;
+      margin-left: 14%; }
 
   .preview-restaurant h2 {
     font-size: 2rem; }
@@ -938,12 +957,10 @@ aside {
       height: 30px;
       position: absolute;
       left: 75%;
-      bottom: 155px;
+      bottom: 175px;
       border-radius: 11%;
-      text-align: center; }
-    .home-restaurant__new p {
-      padding-top: 1px;
-      font-size: 1rem; }
+      text-align: center;
+      left: 70%; }
     .home-restaurant__title {
       font-size: 1rem; }
     .home-restaurant .far {
