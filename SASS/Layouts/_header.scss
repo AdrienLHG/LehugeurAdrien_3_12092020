@@ -2,6 +2,8 @@
 header {
     padding-top: 15px;
     height: 120px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 header img {
@@ -17,28 +19,7 @@ header .fas {
     font-size: 3.5rem;
 }
 
-@media screen and (max-width: 1024px) {
-
-    header {
-        padding-top: 15px;
-        height: 120px;
-    }
-
-    header img {
-        display: flex;
-        margin: 21px auto 0 auto;
-        width: 350px;
-    }
-
-    header .fas {
-        position: absolute;
-        top: 40px;
-        left: 100px;
-        font-size: 3.5rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 750px) {
 
     header {
         padding-top: 15px;
@@ -54,6 +35,13 @@ header .fas {
         top: 22px;
         left: 20px;
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header img {
+        width: 170px;
+        margin: 5px auto 0 auto;
     }
 }
 

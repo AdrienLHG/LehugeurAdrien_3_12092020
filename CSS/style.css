@@ -64,7 +64,9 @@ body {
 
 header {
   padding-top: 15px;
-  height: 120px; }
+  height: 120px;
+  max-width: 1440px;
+  margin: auto; }
 
 header img {
   display: flex;
@@ -77,22 +79,7 @@ header .fas {
   left: 100px;
   font-size: 3.5rem; }
 
-@media screen and (max-width: 1024px) {
-  header {
-    padding-top: 15px;
-    height: 120px; }
-
-  header img {
-    display: flex;
-    margin: 21px auto 0 auto;
-    width: 350px; }
-
-  header .fas {
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    font-size: 3.5rem; } }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 750px) {
   header {
     padding-top: 15px;
     height: 50px; }
@@ -105,6 +92,10 @@ header .fas {
     top: 22px;
     left: 20px;
     font-size: 1.5rem; } }
+@media screen and (max-width: 425px) {
+  header img {
+    width: 170px;
+    margin: 5px auto 0 auto; } }
 @media screen and (max-width: 320px) {
   header img {
     width: 150px;
@@ -158,15 +149,14 @@ footer h4 {
     align-items: center; }
   .menu-restaurant__nom h1 {
     margin-block-end: 0em;
-    font-size: 3rem;
-    width: 70%; }
+    font-size: 3rem; }
   .menu-restaurant__entrées {
     display: flex;
     flex-direction: column; }
 
 .nom-restaurant {
   margin-left: 50px;
-  width: 70%; }
+  width: 75%; }
 
 .like-restaurant {
   font-size: 3rem;
@@ -238,7 +228,7 @@ footer h4 {
 
 @media screen and (max-width: 950px) {
   .menu-restaurant__photo {
-    height: 555px; } }
+    height: 556px; } }
 @media screen and (max-width: 880px) {
   .menu-restaurant__photo {
     height: 510px; } }
@@ -283,15 +273,20 @@ footer h4 {
   .menu-restaurant__photo {
     height: 300px; }
   .menu-restaurant__nom h1 {
-    font-size: 1.9rem; } }
+    font-size: 2.5rem; }
+
+  .nom-restaurant {
+    width: 75%; } }
 @media screen and (max-width: 500px) {
   .menu-restaurant__photo {
     height: 289px; }
   .menu-restaurant__nom h1 {
-    font-size: 1.5rem; }
+    font-size: 2.4rem; }
   .menu-restaurant .like-restaurant {
     font-size: 2rem;
     padding-top: 20px; }
+  .menu-restaurant .nom-restaurant {
+    margin-left: 30px; }
 
   .item-titre {
     font-size: 1.5rem;
@@ -358,22 +353,21 @@ footer h4 {
   .menu-restaurant__photo {
     height: 235px; }
   .menu-restaurant__nom h1 {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
 
   .nom-restaurant {
     margin-left: 30px;
-    width: 65%; } }
+    width: 70%; } }
 @media screen and (max-width: 375px) {
   .menu-restaurant__photo img {
     width: 100%; }
   .menu-restaurant__nom h1 {
-    font-size: 1.2rem; }
+    font-size: 1.5rem; }
   .menu-restaurant__photo {
-    height: 200px; }
+    height: 201px; }
 
   .nom-restaurant {
-    margin-left: 30px;
-    width: 63%; }
+    margin-left: 30px; }
 
   .like-restaurant {
     font-size: 2rem;

@@ -27,7 +27,6 @@
     &__nom h1 {
         margin-block-end: 0em;
         font-size: 3rem;
-        width: 70%;
     }
 
     &__entrées {
@@ -38,7 +37,7 @@
 
 .nom-restaurant {
     margin-left: 50px;
-    width: 70%;
+    width: 75%;
 }
 
 .like-restaurant {
@@ -129,7 +128,7 @@
 
     .menu-restaurant {
         &__photo {
-            height: 555px;
+            height: 556px;
         }
     }
 }
@@ -214,9 +213,13 @@
         }
 
         &__nom h1 {
-            font-size: 1.9rem;
+            font-size: 2.5rem;
         }
     }
+    .nom-restaurant {
+        width: 75%;
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -227,12 +230,16 @@
         }
 
         &__nom h1 {
-            font-size: 1.5rem;
+            font-size: 2.4rem;
         }
 
         .like-restaurant {
             font-size: 2rem;
             padding-top: 20px;
+        }
+
+        .nom-restaurant {
+        margin-left: 30px;
         }
     }
     .item-titre {
@@ -330,13 +337,13 @@
         }
 
         &__nom h1 {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
 
     .nom-restaurant {
         margin-left: 30px;
-        width: 65%;
+        width: 70%;
     }
 }
 
@@ -348,17 +355,16 @@
         }
 
         &__nom h1 {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
 
         &__photo {
-            height: 200px;
+            height: 201px;
         }
     }
 
     .nom-restaurant {
         margin-left: 30px;
-        width: 63%;
     }
 
     .like-restaurant {
