@@ -115,7 +115,7 @@ aside {
 
     &__image {
         width: 100%;
-        height: 400px;
+        height: 450px;
         overflow: hidden;
         border-radius: 25px 25px 0 0;
     }
@@ -267,223 +267,262 @@ aside {
             @include numero-rond (2rem, 53px, 53px);
             margin-top: 15px;
         }
+    }
 
-        .home-restaurant {
-            @include preview-restaurant (92%);
+    .home-restaurant {
+        @include preview-restaurant (92%);
 
-            &__new {
-                @include bloc-new__tablette (330px);
-            }
+        &__new {
+            @include bloc-new__tablette (330px);
+        }
 
-            &__new p {
-                padding-top: 2px;
-                font-size: 1.2rem;
-            }
+        &__new p {
+            padding-top: 2.5px;
+            font-size: 1.2rem;
+        }
 
-            &__image {
-                height: 270px;
-            }
+        &__image {
+            height: 350px;
+        }
 
-            .far {
-                margin-top: 40px;
-            }
+        .far {
+            margin-top: 40px;
         }
     }
 }
 
-    @media screen and (max-width: 425px) {
 
-        content {
-            max-width: 425px;
-        }
+@media screen and (max-width: 600px) {
 
-        .home-book {
-
-            &__title {
-                text-align: center;
-                font-size: 2rem;
-            }
-
-            &__text {
-                font-size: 1rem;
-            }
-        }
-
-        .home-work {
-            display: flex;
-            font-size: 2rem;
-
-            &__number {
-                @include numero-rond (1.2rem, 34px, 34px);
-                margin-top: 16px;
-            }
-
-            &__texte {
-                @include texte-work (1rem);
-            }
-
-            &__texte .fa-ellipsis-v {
-                margin-left: 10%;
-            }
-
-            &__texte .fa-bars {
-                margin-right: 8%;
-            }
-
-            &__texte .fa-mobile-alt {
-                margin-right: 9%;
-                margin-left: 12%;
-            }
-
-            &__texte .fa-store {
-                margin-right: 7.5%;
-                margin-left: 11%;
-            }
-        }
-
-        .home-restaurant {
-            @include preview-restaurant (88%);
-
-            &__image {
-                height: 200px;
-            }
-
-            &__new {
-                @include bloc-new__mobil (230px);
-            }
-
-            &__new p {
-                padding-top: 1px;
-                font-size: 1rem;
-            }
-
-            &__title {
-                font-size: 1.5rem;
-            }
-
-            &__city {
-                font-size: 1rem;
-            }
-
-            .far {
-                font-size: 1.8rem;
-                margin-top: 30px;
-            }
+    .home-work {
+        
+        &__texte {
+            @include texte-work (1rem);
         }
     }
 
-    @media screen and (max-width: 375px) {
-
-        content {
-            max-width: 375px;
+    .home-restaurant {
+        &__image {
+            height: 270px;
         }
 
-        .localisation {
-            height: 40px;
+        &__new {
+            @include bloc-new__tablette (315px);
         }
 
-        .localisation p {
+        &__title {
+            font-size: 1.7rem;
+        }
+
+        &__city {
             font-size: 1.5rem;
         }
 
-        .home-book {
+        .far {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    content {
+        max-width: 425px;
+    }
+
+    .home-book {
+
+        &__title {
             text-align: center;
-            padding: 15px;
+            font-size: 2rem;
         }
 
-        .home-work__number {
+        &__text {
+            font-size: 1rem;
+        }
+    }
+
+    .home-work {
+        display: flex;
+        font-size: 2rem;
+
+        &__number {
+            @include numero-rond (1.2rem, 34px, 34px);
+            margin-top: 16px;
+        }
+
+        &__texte {
+            @include texte-work (1rem);
+        }
+
+        &__texte .fa-ellipsis-v {
+            margin-left: 10%;
+        }
+
+        &__texte .fa-bars {
+            margin-right: 8%;
+        }
+
+        &__texte .fa-mobile-alt {
+            margin-right: 9%;
+            margin-left: 12%;
+        }
+
+        &__texte .fa-store {
+            margin-right: 7.5%;
+            margin-left: 11%;
+        }
+    }
+
+    .home-restaurant {
+        @include preview-restaurant (88%);
+
+        &__image {
+            height: 200px;
+        }
+
+        &__new {
+            @include bloc-new__mobil (230px);
+        }
+
+        &__new p {
+            padding-top: 1px;
+            font-size: 1rem;
+        }
+
+        &__title {
+            font-size: 1.5rem;
+        }
+
+        &__city {
+            font-size: 1rem;
+        }
+
+        .far {
+            font-size: 1.8rem;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    content {
+        max-width: 375px;
+    }
+
+    .localisation {
+        height: 40px;
+    }
+
+    .localisation p {
+        font-size: 1.5rem;
+    }
+
+    .home-book {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .menu-work h2 {
+        font-size: 2rem;
+    }
+
+    .home-work {
+        font-size: 2rem;
+
+        &__number {
             @include numero-rond (1.2rem, 34px, 34px);
             margin-top: 17px;
         }
 
-        .home-restaurant {
-            @include preview-restaurant (85%);
+        &__texte {
+            @include texte-work (0.8rem);
+        }
+    }
+    .preview-restaurant h2 {
+        font-size: 2rem;
+    }   
+    .home-restaurant {
+        @include preview-restaurant (85%);
 
-            &__image {
-                height: 150px;
-            }
+        &__image {
+            height: 150px;
+        }
 
-            &__new {
-                @include bloc-new__mobil (190px);
-            }
+        &__new {
+            @include bloc-new__mobil (190px);
+        }
 
-            &__new p {
-                padding-top: 1px;
-                font-size: 1rem;
-            }
+        &__new p {
+            padding-top: 1px;
+            font-size: 1rem;
+        }
 
-            &__title {
-                font-size: 1.3rem;
-            }
+        &__title {
+            font-size: 1.3rem;
+        }
 
-            .far {
-                font-size: 1.8rem;
-                margin-top: 20px;
-            }
+        .far {
+            font-size: 1.8rem;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    content {
+        max-width: 320px;
+    }
+
+    .localisation {
+        height: 45px;
+    }
+
+    .home-work {
+        display: flex;
+
+        &__number {
+            @include numero-rond (1rem, 27px, 27px);
+            margin-top: 17px;
+        }
+
+        &__texte {
+            @include texte-work (0.75rem);
+        }
+
+        &__texte .fa-ellipsis-v {
+            margin-left: 14%;
+        }
+
+        &__texte .fa-mobile-alt {
+            margin-right: 10%;
+            margin-left: 15%;
+        }
+
+        &__texte .fa-store {
+            margin-right: 7.5%;
+            margin-left: 14%;
         }
     }
 
-    @media screen and (max-width: 320px) {
 
-        content {
-            max-width: 320px;
+    .home-restaurant {
+        @include preview-restaurant (81%);
+
+        &__new {
+            @include bloc-new__mobil (175px);
+            left: 70%
         }
 
-        .localisation {
-            height: 45px;
+        &__title {
+            font-size: 1rem;
         }
 
-        .menu-work h2 {
-            font-size: 2rem;
-        }
-
-        .home-work {
-            display: flex;
-            font-size: 2rem;
-
-            &__number {
-                @include numero-rond (1rem, 27px, 27px);
-                margin-top: 17px;
-            }
-
-            &__texte {
-                @include texte-work (0.75rem);
-            }
-
-            &__texte .fa-ellipsis-v {
-                margin-left: 14%;
-            }
-
-            &__texte .fa-mobile-alt {
-                margin-right: 10%;
-                margin-left: 15%;
-            }
-
-            &__texte .fa-store {
-                margin-right: 7.5%;
-                margin-left: 14%;
-            }
-        }
-
-        .preview-restaurant h2 {
-            font-size: 2rem;
-        }
-
-        .home-restaurant {
-            @include preview-restaurant (81%);
-
-            &__new {
-                @include bloc-new__mobil (175px);
-                left: 70%
-            }
-
-            &__title {
-                font-size: 1rem;
-            }
-
-            .far {
-                font-size: 1.5rem;
-                margin-top: 20px;
-            }
+        .far {
+            font-size: 1.5rem;
+            margin-top: 20px;
         }
     }
+}
