@@ -124,6 +124,32 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 553px;
+        }
+    }
+}
+@media screen and (max-width: 880px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 504px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 455px;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .menu-restaurant {
@@ -157,32 +183,57 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
 
     .menu-restaurant {
-        &__photo img {
-            width: 100%;
+        &__photo {
+            height: 387px;
         }
 
+        &__nom h1 {
+            font-size: 2.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .menu-restaurant {
         &__photo {
-            height: 235px;
+            height: 335px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 300px;
+        }
+
+        &__nom h1 {
+            font-size: 1.9rem;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 285px;
         }
 
         &__nom h1 {
             font-size: 1.5rem;
         }
-    }
 
-    .nom-restaurant {
-        margin-left: 30px;
-        width: 65%;
+        .like-restaurant {
+            font-size: 2rem;
+            padding-top: 20px;
+        }
     }
-
-    .like-restaurant {
-        font-size: 2rem;
-        padding-top: 20px;
-    }
-
     .item-titre {
         font-size: 1.5rem;
         padding-left: 30px;
@@ -247,7 +298,46 @@
             font-size: 1rem;
         }
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 275px;
+        }
     }
+}
+
+@media screen and (max-width: 460px) {
+
+    .menu-restaurant {
+        &__photo {
+            height: 259px;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+
+    .menu-restaurant {
+        &__photo img {
+            width: 100%;
+        }
+
+        &__photo {
+            height: 235px;
+        }
+
+        &__nom h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .nom-restaurant {
+        margin-left: 30px;
+        width: 65%;
+    }
+}
 
 @media screen and (max-width: 375px) {
 

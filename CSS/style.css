@@ -235,6 +235,15 @@ footer h4 {
   .item__prix h2 {
     font-size: 1.5rem; }
 
+@media screen and (max-width: 950px) {
+  .menu-restaurant__photo {
+    height: 553px; } }
+@media screen and (max-width: 880px) {
+  .menu-restaurant__photo {
+    height: 504px; } }
+@media screen and (max-width: 800px) {
+  .menu-restaurant__photo {
+    height: 455px; } }
 @media screen and (max-width: 768px) {
   .menu-restaurant__photo img {
     width: 100%; }
@@ -261,19 +270,25 @@ footer h4 {
       transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
     .like-restaurant .item__prix {
       left: 520px; } }
-@media screen and (max-width: 425px) {
-  .menu-restaurant__photo img {
-    width: 100%; }
+@media screen and (max-width: 700px) {
   .menu-restaurant__photo {
-    height: 235px; }
+    height: 387px; }
+  .menu-restaurant__nom h1 {
+    font-size: 2.3rem; } }
+@media screen and (max-width: 620px) {
+  .menu-restaurant__photo {
+    height: 335px; } }
+@media screen and (max-width: 550px) {
+  .menu-restaurant__photo {
+    height: 300px; }
+  .menu-restaurant__nom h1 {
+    font-size: 1.9rem; } }
+@media screen and (max-width: 500px) {
+  .menu-restaurant__photo {
+    height: 285px; }
   .menu-restaurant__nom h1 {
     font-size: 1.5rem; }
-
-  .nom-restaurant {
-    margin-left: 30px;
-    width: 65%; }
-
-  .like-restaurant {
+  .menu-restaurant .like-restaurant {
     font-size: 2rem;
     padding-top: 20px; }
 
@@ -330,6 +345,23 @@ footer h4 {
       top: 26px; }
     .item__prix h2 {
       font-size: 1rem; } }
+@media screen and (max-width: 480px) {
+  .menu-restaurant__photo {
+    height: 275px; } }
+@media screen and (max-width: 460px) {
+  .menu-restaurant__photo {
+    height: 259px; } }
+@media screen and (max-width: 425px) {
+  .menu-restaurant__photo img {
+    width: 100%; }
+  .menu-restaurant__photo {
+    height: 235px; }
+  .menu-restaurant__nom h1 {
+    font-size: 1.5rem; }
+
+  .nom-restaurant {
+    margin-left: 30px;
+    width: 65%; } }
 @media screen and (max-width: 375px) {
   .menu-restaurant__photo img {
     width: 100%; }
