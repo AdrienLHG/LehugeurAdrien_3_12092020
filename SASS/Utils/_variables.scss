@@ -50,8 +50,9 @@ $color-border: #99E2D0;
     text-align: center;
 }
 
-@mixin preview-restaurant ($width) {
+@mixin preview-restaurant ($width, $height) {
     width: $width;
+    height: $height;
     display: flex;
     background-color: white;
     margin-left: 30px;
