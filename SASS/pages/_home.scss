@@ -32,6 +32,7 @@ aside {
     display: flex;
     flex-direction: column;
     text-align: center;
+    pagging: 5px;
 
     &__title {
         text-align: center;
@@ -112,19 +113,20 @@ aside {
     @include preview-restaurant (95%);
 
     &__image {
-        width: 100%;
-        height: 400px;
+        width:100%;
+        height: 80%;
         overflow: hidden;
         border-radius: 25px 25px 0 0;
     }
 
     &__image img {
-        width: 950px;
-        height: 640px
+        width:100%;
+        height: 665px;
     }
 
     &__bloc {
         display: flex;
+        height: 20%
     }
 
     &__texte {
@@ -241,10 +243,6 @@ aside {
     .home-restaurant {
         @include preview-restaurant (93%);
 
-        &__image img {
-            width: 952px;
-        }
-
         &__new {
             @include bloc-new (77%, 600px);
         }
@@ -267,7 +265,7 @@ aside {
         @include preview-restaurant (92%);
 
         &__image img {
-            height: 470px;
+            height: 490px;
         }
 
         &__new {
@@ -334,13 +332,8 @@ aside {
     .home-restaurant {
         @include preview-restaurant (88%);
 
-        &__image {
-            height: 200px;
-        }
-
         &__image img {
-            width: 374px;
-            height: 245px;
+            height: 265px;
         }
 
         &__new {
@@ -401,15 +394,6 @@ aside {
     .home-restaurant {
         @include preview-restaurant (85%);
 
-        &__image {
-            height: 200px;
-        }
-
-        &__image img {
-            width: 319px;
-            height: 200px;
-        }
-
         &__new {
             @include bloc-new__mobil (72%, 185px);
         }
@@ -465,13 +449,8 @@ aside {
     .home-restaurant {
         @include preview-restaurant (81%);
 
-        &__image {
-            height: 170px;
-        }
-
         &__image img {
-            width: 260px;
-            height: 170px;
+            height: 190px;
         }
 
         &__new {

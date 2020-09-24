@@ -52,6 +52,7 @@ $color-border: #99E2D0;
 
 @mixin preview-restaurant ($width) {
     width: $width;
+    display: flex;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;

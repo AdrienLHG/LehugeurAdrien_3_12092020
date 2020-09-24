@@ -445,7 +445,8 @@ aside {
   padding-bottom: 15px;
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  pagging: 5px; }
   .home-book__title {
     text-align: center;
     font-size: 3rem; }
@@ -524,6 +525,7 @@ aside {
 
 .home-restaurant {
   width: 95%;
+  display: flex;
   background-color: white;
   margin-left: 30px;
   margin-bottom: 30px;
@@ -534,14 +536,15 @@ aside {
     cursor: pointer; }
   .home-restaurant__image {
     width: 100%;
-    height: 400px;
+    height: 80%;
     overflow: hidden;
     border-radius: 25px 25px 0 0; }
   .home-restaurant__image img {
-    width: 950px;
-    height: 640px; }
+    width: 100%;
+    height: 665px; }
   .home-restaurant__bloc {
-    display: flex; }
+    display: flex;
+    height: 20%; }
   .home-restaurant__texte {
     width: 80%; }
   .home-restaurant__title {
@@ -653,6 +656,7 @@ aside {
 
   .home-restaurant {
     width: 93%;
+    display: flex;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -661,8 +665,6 @@ aside {
     animation: menu-in 1500ms 3500ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__image img {
-      width: 952px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -691,6 +693,7 @@ aside {
 
   .home-restaurant {
     width: 92%;
+    display: flex;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -700,7 +703,7 @@ aside {
     .home-restaurant:hover {
       cursor: pointer; }
     .home-restaurant__image img {
-      height: 470px; }
+      height: 490px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -768,6 +771,7 @@ aside {
 
   .home-restaurant {
     width: 88%;
+    display: flex;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -776,11 +780,8 @@ aside {
     animation: menu-in 1500ms 3500ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__image {
-      height: 200px; }
     .home-restaurant__image img {
-      width: 374px;
-      height: 245px; }
+      height: 265px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -835,6 +836,7 @@ aside {
 
   .home-restaurant {
     width: 85%;
+    display: flex;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -843,11 +845,6 @@ aside {
     animation: menu-in 1500ms 3500ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__image {
-      height: 200px; }
-    .home-restaurant__image img {
-      width: 319px;
-      height: 200px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -913,6 +910,7 @@ aside {
 
   .home-restaurant {
     width: 81%;
+    display: flex;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -921,11 +919,8 @@ aside {
     animation: menu-in 1500ms 3500ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
-    .home-restaurant__image {
-      height: 170px; }
     .home-restaurant__image img {
-      width: 260px;
-      height: 170px; }
+      height: 190px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
