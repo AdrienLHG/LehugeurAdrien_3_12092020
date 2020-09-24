@@ -26,33 +26,44 @@ $color-border: #99E2D0;
     }
 }
 
-@mixin bloc-new ($left, $bottom) {
+@mixin bloc-new ($bottom) {
     background-color: #f1f8e9;
     color: #75ab37;
     width: 120px;
     height: 50px;
-    position: relative;
-    left: $left;
+    position: absolute;
+    left: 75%;
     bottom: $bottom;
     border-radius: 11%;
     text-align: center;
 }
 
-@mixin bloc-new__mobil ($left, $bottom) {
+@mixin bloc-new__mobil ($bottom) {
     background-color: #f1f8e9;
     color: #75ab37;
     width: 60px;
     height: 30px;
-    position: relative;
-    left: $left;
+    position: absolute;
+    left: 75%;
     bottom: $bottom;
     border-radius: 11%;
     text-align: center;
 }
 
-@mixin preview-restaurant ($width, $height) {
+@mixin bloc-new__tablette ($bottom) {
+    background-color: #f1f8e9;
+    color: #75ab37;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    left: 72%;
+    bottom: $bottom;
+    border-radius: 11%;
+    text-align: center;
+}
+@mixin preview-restaurant ($width) {
     width: $width;
-    height: $height;
+    height: auto;
     display: flex;
     background-color: white;
     margin-left: 30px;

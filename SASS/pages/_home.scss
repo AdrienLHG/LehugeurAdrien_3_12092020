@@ -110,23 +110,23 @@ aside {
 }
 
 .home-restaurant {
-    @include preview-restaurant (95%, 600px);
+    @include preview-restaurant (95%);
 
     &__image {
         width: 100%;
-        height: 70%;
+        height: 400px;
         overflow: hidden;
         border-radius: 25px 25px 0 0;
     }
 
     &__image img {
         width: 100%;
-        height: 665px;
+        height: auto;
     }
 
     &__bloc {
         display: flex;
-        height: 30%;
+        height: auto;
     }
 
     &__texte {
@@ -147,7 +147,7 @@ aside {
     }
 
     &__new {
-        @include bloc-new (80%, 610px);
+        @include bloc-new (610px);
     }
 
     &__new p {
@@ -241,13 +241,13 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (93%, 500px);
+        @include preview-restaurant (93%);
 
         &__new {
-            @include bloc-new (77%, 600px);
+            @include bloc-new (430px);
         }
     }
-}
+    }
 
 @media screen and (max-width: 768px) {
 
@@ -262,14 +262,19 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (92%, 450px);
-
-        &__image img {
-            height: 490px;
-        }
+        @include preview-restaurant (92%);
 
         &__new {
-            @include bloc-new (75%, 430px);
+            @include bloc-new__tablette (315px);
+        }
+
+        &__new p {
+            padding-top: 2px;
+            font-size: 1.2rem;
+        }
+
+        &__image {
+            height: 270px;
         }
 
         .far {
@@ -330,14 +335,14 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (88%, 350px);
+        @include preview-restaurant (88%);
 
-        &__image img {
-            height: 265px;
+        &__image {
+            height: 200px;
         }
 
         &__new {
-            @include bloc-new__mobil (75%, 220px);
+            @include bloc-new__mobil (220px);
         }
 
         &__new p {
@@ -392,10 +397,14 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (85%, 300px);
+        @include preview-restaurant (85%);
+
+        &__image {
+            height: 150px;
+        }
 
         &__new {
-            @include bloc-new__mobil (72%, 185px);
+            @include bloc-new__mobil (185px);
         }
 
         &__new p {
@@ -447,14 +456,10 @@ aside {
     }
 
     .home-restaurant {
-        @include preview-restaurant (81%, 200px);
-
-        &__image img {
-            height: 190px;
-        }
+        @include preview-restaurant (81%);
 
         &__new {
-            @include bloc-new__mobil (70%, 150px);
+            @include bloc-new__mobil (150px);
         }
 
         &__new p {
