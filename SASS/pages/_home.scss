@@ -147,7 +147,8 @@ aside {
     }
 
     &__new {
-        @include bloc-new (610px);
+        @include bloc-new (450px);
+        left: 78%;
     }
 
     &__new p {
@@ -244,7 +245,7 @@ aside {
         @include preview-restaurant (93%);
 
         &__new {
-            @include bloc-new (430px);
+            @include bloc-new (450px);
         }
     }
     }
@@ -265,7 +266,7 @@ aside {
         @include preview-restaurant (92%);
 
         &__new {
-            @include bloc-new__tablette (315px);
+            @include bloc-new__tablette (330px);
         }
 
         &__new p {
@@ -342,7 +343,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new__mobil (220px);
+            @include bloc-new__mobil (230px);
         }
 
         &__new p {
@@ -404,7 +405,7 @@ aside {
         }
 
         &__new {
-            @include bloc-new__mobil (185px);
+            @include bloc-new__mobil (190px);
         }
 
         &__new p {
@@ -459,7 +460,7 @@ aside {
         @include preview-restaurant (81%);
 
         &__new {
-            @include bloc-new__mobil (150px);
+            @include bloc-new__mobil (155px);
         }
 
         &__new p {
