@@ -113,7 +113,6 @@ $color-border: #99E2D0;
 @mixin item ($margin, $height) {
     width: 80%;
     display: flex;
-    justify-content: space-between;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: $margin;
