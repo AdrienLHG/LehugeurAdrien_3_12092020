@@ -87,7 +87,7 @@
     }
 
     &__choix {
-        width: 90%;
+        width: 100%;
     }
 
     &__choix h2 {
@@ -116,11 +116,11 @@
 
     &__progress i {
         position: relative;
-        left: 20px;
-        top: 32px;
+        left: 0px;
+        top: 27px;
         opacity: 1;
         color: white;
-        font-size: 2.5rem;
+        font-size: 3rem;
         transition: transform 1000ms cubic-bezier(.32,0,.07,1);
     }
 
@@ -181,9 +181,6 @@
                 @include progress-bar (110px);
             }
 
-            &__prix {
-                left: 520px;
-            }
         }
     }
 }
@@ -280,21 +277,12 @@
             }
         }
 
-        &__choix {
-            width: 150%;
-        }
-
         &__choix h2 {
             font-size: 0.8rem;
         }
 
         &__choix p {
             font-size: 0.8rem;
-        }
-
-        &__prix {
-            left: 280px;
-            bottom: 50px;
         }
 
         &__progress {
@@ -377,10 +365,6 @@
         padding-top: 20px;
     }
     .item {
-        &__prix {
-            left: 245px;
-            bottom: 47px;
-        }
 
         &__progress {
             @include progress-bar (80px);
@@ -432,21 +416,12 @@
                 animation-delay: 800ms;
             }
 
-            &__choix {
-                width: 140%;
-            }
-
             &__choix h2 {
                 font-size: 0.75rem;
             }
 
             &__choix p {
                 font-size: 0.75rem;
-            }
-
-            &__prix {
-                left: 220px;
-                bottom: 47px;
             }
 
             &__prix p {
