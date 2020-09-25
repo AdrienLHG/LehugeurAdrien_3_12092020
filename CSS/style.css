@@ -173,6 +173,7 @@ footer h4 {
 .item {
   width: 80%;
   display: flex;
+  justify-content: space-between;
   border-radius: 15px 15px 15px 15px;
   padding: 15px;
   margin: 30px auto auto 50px;
@@ -256,10 +257,8 @@ footer h4 {
     font-size: 3rem;
     padding-top: 38px; }
 
-  .item:hover > .item__prix {
-    transform: translate(-50px); }
   .item__choix {
-    width: 100%; }
+    transition: 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
   .item__progress {
     border-radius: 0 13px 15px 0;
     height: 110px;
@@ -271,7 +270,14 @@ footer h4 {
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
-    width: 205px; } }
+    left: 15px; }
+  .item__progress i {
+    left: 36px;
+    top: 30px; }
+  .item:hover > .item__prix {
+    transform: translate(-95px); }
+  .item:hover > .item__choix {
+    width: 60%; } }
 @media screen and (max-width: 700px) {
   .menu-restaurant__photo {
     height: 387px; }
@@ -309,6 +315,7 @@ footer h4 {
   .item {
     width: 80%;
     display: flex;
+    justify-content: space-between;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: 30px auto auto 30px;
@@ -408,6 +415,7 @@ footer h4 {
   .menu-restaurant .item {
     width: 80%;
     display: flex;
+    justify-content: space-between;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: 20px auto auto 20px;

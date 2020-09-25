@@ -182,20 +182,29 @@
 
     .item {
 
-        &:hover {
-
-            & > .item__prix {
-                transform: translate(-50px);
-            }
-        }
-
         &__choix {
-            width: 100%;
+            transition: 1000ms cubic-bezier(.32,0,.07,1);
         }
 
         &__progress {
             @include progress-bar (110px);
-            width: 205px;
+            left: 15px;
+        }
+
+        &__progress i {
+            left: 36px;
+            top: 30px;
+        }
+
+        &:hover {
+
+            & > .item__prix {
+                transform: translate(-95px);
+            }
+
+            & > .item__choix {
+                width: 60%;
+            }
         }
     }
 }
