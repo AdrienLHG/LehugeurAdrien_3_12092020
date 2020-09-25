@@ -148,7 +148,7 @@ aside {
     }
 
     &__new {
-        @include bloc-new (450px);
+        @include bloc-new (500px);
         left: 78%;
     }
 
@@ -247,7 +247,7 @@ aside {
         @include preview-restaurant (93%);
 
         &__new {
-            @include bloc-new (450px);
+            @include bloc-new (500px);
         }
     }
 }
@@ -273,7 +273,7 @@ aside {
         @include preview-restaurant (92%);
 
         &__new {
-            @include bloc-new__tablette (330px);
+            @include bloc-new__tablette (420px);
         }
 
         &__new p {
