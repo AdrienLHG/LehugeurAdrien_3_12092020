@@ -15,7 +15,7 @@ aside {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 54px;
+    padding-top: 50px;
 }
 
 .localisation p {
@@ -23,7 +23,7 @@ aside {
 }
 
 .localisation .fas {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .home-book {
@@ -63,6 +63,10 @@ aside {
         left: 0px;
         font-size: 2rem;
         margin-top: 8px;
+    }
+
+    &__number p {
+       margin-block-start: 0.2em; 
     }
 
     &__texte {
@@ -148,19 +152,19 @@ aside {
     }
 
     &__new {
-        @include bloc-new (500px);
+        @include bloc-new (450px);
         left: 78%;
     }
 
     &__new p {
-        padding-top: 5px;
+        padding-top: 11px;
         font-size: 1.4rem;
     }
 }
 
 .home-restaurant .far {
     font-size: 3.5rem;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 /*/////// Responsive format Tablette//////////*/
 @media screen and (max-width: 1024px) {
@@ -180,6 +184,9 @@ aside {
         height: 60px;
         box-shadow: 0px 6px 30px $color-shadow;
         padding-top: 5px;
+    }
+    .localisation p {
+        margin-top: 5px;
     }
 
     .home-book {
@@ -247,7 +254,7 @@ aside {
         @include preview-restaurant (93%);
 
         &__new {
-            @include bloc-new (500px);
+            @include bloc-new (450px);
         }
     }
 }
@@ -273,11 +280,11 @@ aside {
         @include preview-restaurant (92%);
 
         &__new {
-            @include bloc-new__tablette (420px);
+            @include bloc-new__tablette (480px);
         }
 
         &__new p {
-            padding-top: 2.5px;
+            padding-top: 9.5px;
             font-size: 1.2rem;
         }
 
@@ -286,7 +293,7 @@ aside {
         }
 
         .far {
-            margin-top: 40px;
+            margin-top: 30px;
         }
     }
 }
@@ -319,7 +326,7 @@ aside {
         }
 
         .far {
-            margin-top: 30px;
+            margin-top: 20px;
         }
     }
 }
@@ -328,6 +335,15 @@ aside {
 
     content {
         max-width: 425px;
+    }
+
+    .localisation {
+        height: 43px;
+        padding-top: 3px;
+    }
+
+    .localisation p {
+        font-size: 1.5rem;
     }
 
     .home-book {
@@ -386,7 +402,7 @@ aside {
         }
 
         &__new p {
-            padding-top: 1px;
+            padding-top: 5px;
             font-size: 1rem;
         }
 
@@ -451,11 +467,11 @@ aside {
         }
 
         &__new {
-            @include bloc-new__mobil (190px);
+            @include bloc-new__mobil (180px);
         }
 
         &__new p {
-            padding-top: 1px;
+            padding-top: 5px;
             font-size: 1rem;
         }
 
@@ -512,17 +528,26 @@ aside {
         @include preview-restaurant (81%);
 
         &__new {
-            @include bloc-new__mobil (175px);
+            @include bloc-new__mobil (170px);
             left: 70%
         }
 
         &__title {
-            font-size: 1rem;
+            font-size: 0.9rem;
+        }
+
+        &__city {
+            font-size: 0.9rem;
+        }
+
+        &__new p {
+            padding-top: 7px;
+            font-size: 0.9rem;
         }
 
         .far {
             font-size: 1.5rem;
-            margin-top: 20px;
+            margin-top: 10px;
         }
     }
 }

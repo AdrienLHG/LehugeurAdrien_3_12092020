@@ -164,7 +164,7 @@ footer h4 {
   padding-top: 38px; }
 
 .item-titre {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-style: inherit;
   padding-top: 20px;
   padding-left: 50px; }
@@ -536,13 +536,13 @@ aside {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 54px; }
+  padding-top: 50px; }
 
 .localisation p {
   font-size: 2rem; }
 
 .localisation .fas {
-  margin-right: 10px; }
+  margin-right: 15px; }
 
 .home-book {
   background-color: #f2f2f2;
@@ -582,6 +582,8 @@ aside {
     left: 0px;
     font-size: 2rem;
     margin-top: 8px; }
+  .home-work__number p {
+    margin-block-start: 0.2em; }
   .home-work__texte {
     width: 80%;
     border-radius: 10px 10px 10px 10px;
@@ -668,17 +670,17 @@ aside {
     height: 50px;
     position: absolute;
     left: 75%;
-    bottom: 500px;
+    bottom: 450px;
     border-radius: 11%;
     text-align: center;
     left: 78%; }
   .home-restaurant__new p {
-    padding-top: 5px;
+    padding-top: 11px;
     font-size: 1.4rem; }
 
 .home-restaurant .far {
   font-size: 3.5rem;
-  margin-top: 40px; }
+  margin-top: 25px; }
 
 /*/////// Responsive format Tablette//////////*/
 @media screen and (max-width: 1024px) {
@@ -695,6 +697,9 @@ aside {
     height: 60px;
     box-shadow: 0px 6px 30px #bdbdbd;
     padding-top: 5px; }
+
+  .localisation p {
+    margin-top: 5px; }
 
   .home-book {
     background-color: #fafafa; }
@@ -780,7 +785,7 @@ aside {
       height: 50px;
       position: absolute;
       left: 75%;
-      bottom: 500px;
+      bottom: 450px;
       border-radius: 11%;
       text-align: center; } }
 @media screen and (max-width: 768px) {
@@ -835,16 +840,16 @@ aside {
       height: 40px;
       position: absolute;
       left: 75%;
-      bottom: 420px;
+      bottom: 480px;
       border-radius: 11%;
       text-align: center; }
     .home-restaurant__new p {
-      padding-top: 2.5px;
+      padding-top: 9.5px;
       font-size: 1.2rem; }
     .home-restaurant__image {
       height: 350px; }
     .home-restaurant .far {
-      margin-top: 40px; } }
+      margin-top: 30px; } }
 @media screen and (max-width: 600px) {
   .home-work__texte {
     width: 80%;
@@ -880,10 +885,17 @@ aside {
   .home-restaurant__city {
     font-size: 1.5rem; }
   .home-restaurant .far {
-    margin-top: 30px; } }
+    margin-top: 20px; } }
 @media screen and (max-width: 425px) {
   content {
     max-width: 425px; }
+
+  .localisation {
+    height: 43px;
+    padding-top: 3px; }
+
+  .localisation p {
+    font-size: 1.5rem; }
 
   .home-book__title {
     text-align: center;
@@ -958,7 +970,7 @@ aside {
       border-radius: 11%;
       text-align: center; }
     .home-restaurant__new p {
-      padding-top: 1px;
+      padding-top: 5px;
       font-size: 1rem; }
     .home-restaurant__title {
       font-size: 1.5rem; }
@@ -1039,11 +1051,11 @@ aside {
       height: 30px;
       position: absolute;
       left: 75%;
-      bottom: 190px;
+      bottom: 180px;
       border-radius: 11%;
       text-align: center; }
     .home-restaurant__new p {
-      padding-top: 1px;
+      padding-top: 5px;
       font-size: 1rem; }
     .home-restaurant__title {
       font-size: 1.3rem; }
@@ -1115,15 +1127,20 @@ aside {
       height: 30px;
       position: absolute;
       left: 75%;
-      bottom: 175px;
+      bottom: 170px;
       border-radius: 11%;
       text-align: center;
       left: 70%; }
     .home-restaurant__title {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
+    .home-restaurant__city {
+      font-size: 0.9rem; }
+    .home-restaurant__new p {
+      padding-top: 7px;
+      font-size: 0.9rem; }
     .home-restaurant .far {
       font-size: 1.5rem;
-      margin-top: 20px; } }
+      margin-top: 10px; } }
 .home-book__btn {
   text-align: center;
   font-size: 1.5rem;
