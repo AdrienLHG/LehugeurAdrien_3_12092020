@@ -1,21 +1,22 @@
 p, h2, h3 {
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-@font-face {
-    font-family: 'CooperBlack';
-    src: url('./fonts/cooper-black/coopbl.ttf') format('ttf');
-}
 .menu-restaurant {
-        &__nom {
-            font-family: 'CooperBlack', 'Titan', cursive;
-            font-size: 1.5rem;
-            font-style:italic;
-        }
+    &__nom {
+        font-family: 'Shrikhand', cursive;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
 }
 
 h2 {
     font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 100;
 }
 
 footer  {
@@ -23,7 +24,8 @@ footer  {
 }
 
 footer h4 {
-    font-family: 'CooperBlack', 'Titan', cursive;
+    font-family: 'Shrikhand', cursive;
     font-style: italic;
 }
+
 

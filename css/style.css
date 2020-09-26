@@ -37,24 +37,25 @@
   100% {
     opacity: 1; } }
 p, h2, h3 {
-  font-family: 'Athiti', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
-@font-face {
-  font-family: 'CooperBlack';
-  src: url("./fonts/cooper-black/coopbl.ttf") format("ttf"); }
 .menu-restaurant__nom {
-  font-family: 'CooperBlack', 'Titan', cursive;
+  font-family: 'Shrikhand', cursive;
   font-size: 1.5rem;
   font-style: italic; }
 
 h2 {
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  font-weight: 500; }
+
+p {
+  font-weight: 100; }
 
 footer {
   color: white; }
 
 footer h4 {
-  font-family: 'CooperBlack', 'Titan', cursive;
+  font-family: 'Shrikhand', cursive;
   font-style: italic; }
 
 body {
@@ -164,6 +165,7 @@ footer h4 {
 
 .item-titre {
   font-size: 2.5rem;
+  font-style: inherit;
   padding-top: 20px;
   padding-left: 50px; }
   .item-titre--border {
@@ -197,14 +199,14 @@ footer h4 {
   .item__choix {
     width: 100%; }
   .item__choix h2 {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    font-size: 1.8rem;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.2em;
+    font-size: 1.7rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
   .item__choix p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
