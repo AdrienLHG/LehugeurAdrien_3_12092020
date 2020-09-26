@@ -270,9 +270,9 @@ footer h4 {
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
-    left: 15px; }
+    width: 115px; }
   .item__progress i {
-    left: 36px;
+    left: 32px;
     top: 30px; }
   .item:hover > .item__prix {
     transform: translate(-95px); }
@@ -282,10 +282,18 @@ footer h4 {
   .menu-restaurant__photo {
     height: 387px; }
   .menu-restaurant__nom h1 {
-    font-size: 2.3rem; } }
+    font-size: 2.3rem; }
+
+  .item__choix h2 {
+    font-size: 1.6rem; } }
 @media screen and (max-width: 620px) {
   .menu-restaurant__photo {
-    height: 335px; } }
+    height: 335px; }
+
+  .item__choix h2 {
+    font-size: 1.5rem; }
+  .item:hover > .item__prix {
+    transform: translate(-105px); } }
 @media screen and (max-width: 550px) {
   .menu-restaurant__photo {
     height: 300px; }
@@ -293,7 +301,27 @@ footer h4 {
     font-size: 2.5rem; }
 
   .nom-restaurant {
-    width: 75%; } }
+    width: 75%; }
+
+  .item__choix h2 {
+    font-size: 1.3rem; }
+  .item__choix p {
+    font-size: 1.3rem; }
+  .item__progress {
+    border-radius: 0 13px 15px 0;
+    height: 110px;
+    width: 130px;
+    position: relative;
+    background-color: #99E2D0;
+    left: 16px;
+    bottom: 15px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
+    width: 105px; }
+  .item__progress i {
+    left: 28px;
+    top: 30px; } }
 @media screen and (max-width: 500px) {
   .menu-restaurant__photo {
     height: 289px; }
@@ -332,11 +360,7 @@ footer h4 {
     .item--4 {
       animation-delay: 800ms; }
     .item:hover > .item__prix {
-      transform: translate(-20px); }
-    .item__choix h2 {
-      font-size: 0.8rem; }
-    .item__choix p {
-      font-size: 0.8rem; }
+      transform: translate(-70px); }
     .item__progress {
       border-radius: 0 13px 15px 0;
       height: 80px;
@@ -347,11 +371,16 @@ footer h4 {
       bottom: 15px;
       transform-origin: right;
       transform: scaleX(0);
-      transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); }
+      transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
+      width: 95px; }
     .item__progress i {
-      font-size: 1.8rem;
-      left: 7px;
-      top: 26px; }
+      font-size: 2.5rem;
+      left: 25px;
+      top: 20px; }
+    .item__choix h2 {
+      font-size: 1.1rem; }
+    .item__choix p {
+      font-size: 1.1rem; }
     .item__prix h2 {
       font-size: 1rem; } }
 @media screen and (max-width: 480px) {
@@ -359,7 +388,10 @@ footer h4 {
     height: 275px; } }
 @media screen and (max-width: 460px) {
   .menu-restaurant__photo {
-    height: 259px; } }
+    height: 259px; }
+
+  .item:hover > .item__prix {
+    transform: translate(-75px); } }
 @media screen and (max-width: 425px) {
   .menu-restaurant__photo img {
     width: 100%; }
@@ -370,7 +402,29 @@ footer h4 {
 
   .nom-restaurant {
     margin-left: 30px;
-    width: 70%; } }
+    width: 70%; }
+
+  .item:hover > .item__prix {
+    transform: translate(-70px); }
+  .item__progress {
+    border-radius: 0 13px 15px 0;
+    height: 80px;
+    width: 130px;
+    position: relative;
+    background-color: #99E2D0;
+    left: 16px;
+    bottom: 15px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
+    width: 80px; }
+  .item__progress i {
+    left: 20px;
+    top: 20px; }
+  .item__choix h2 {
+    font-size: 1rem; }
+  .item__choix p {
+    font-size: 1rem; } }
 @media screen and (max-width: 375px) {
   .menu-restaurant__photo img {
     width: 100%; }
@@ -396,7 +450,10 @@ footer h4 {
     bottom: 15px;
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1); } }
+    transition: transform 1000ms cubic-bezier(0.32, 0, 0.07, 1);
+    width: 75px; }
+  .item__progress i {
+    left: 17px; } }
 @media screen and (max-width: 350px) {
   .menu-restaurant__photo img {
     width: 100%; }
@@ -424,6 +481,8 @@ footer h4 {
     height: 40px;
     transform: scaleX(1);
     animation: menu-in 1500ms 200ms ease-in-out both; }
+    .menu-restaurant .item:hover > .item__prix {
+      transform: translate(-55px); }
     .menu-restaurant .item--2 {
       animation-delay: 400ms; }
     .menu-restaurant .item--3 {
@@ -436,6 +495,8 @@ footer h4 {
       font-size: 0.75rem; }
     .menu-restaurant .item__prix p {
       font-size: 0.8px; }
+    .menu-restaurant .item__prix {
+      bottom: 10px; }
     .menu-restaurant .item__progress {
       border-radius: 0 13px 15px 0;
       height: 70px;
@@ -450,7 +511,7 @@ footer h4 {
       width: 60px; }
     .menu-restaurant .item__progress i {
       font-size: 1.6rem;
-      left: 4px;
+      left: 15px;
       top: 23px; } }
 @media screen and (max-width: 330px) {
   .menu-restaurant__photo {
