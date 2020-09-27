@@ -1,4 +1,4 @@
-content {
+main {
     display: flex;
     max-width: 1440px;
     margin: auto;
@@ -106,7 +106,7 @@ aside {
 
 .preview-restaurant .fas {
     align-self: center;
-    animation: rotate-center 1500ms 500ms ease-in-out 3 both;
+    animation: rotate-center 1500ms 500ms ease-in-out 2 both;
 }
 
 .home-restaurant a {
@@ -169,7 +169,7 @@ aside {
 /*/////// Responsive format Tablette//////////*/
 @media screen and (max-width: 1024px) {
 
-    content {
+    main {
         max-width: 1024px;
         flex-direction: column;
     }
@@ -261,7 +261,7 @@ aside {
 
 @media screen and (max-width: 768px) {
 
-    content {
+    main {
         max-width: 768px;
     }
 
@@ -280,7 +280,7 @@ aside {
         @include preview-restaurant (92%);
 
         &__new {
-            @include bloc-new__tablette (480px);
+            @include bloc-new__tablette (380px);
         }
 
         &__new p {
@@ -333,7 +333,7 @@ aside {
 
 @media screen and (max-width: 425px) {
 
-    content {
+    main {
         max-width: 425px;
     }
 
@@ -423,7 +423,7 @@ aside {
 
 @media screen and (max-width: 375px) {
 
-    content {
+    main {
         max-width: 375px;
     }
 
@@ -488,7 +488,7 @@ aside {
 
 @media screen and (max-width: 320px) {
 
-    content {
+    main {
         max-width: 320px;
     }
 

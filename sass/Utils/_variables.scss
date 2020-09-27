@@ -88,6 +88,7 @@ $color-border: #99E2D0;
     color: white;
     position: relative;
     left: 15px;
+    bottom: 10px;
 }
 
 @mixin texte-work ($font-size) {
@@ -122,17 +123,21 @@ $color-border: #99E2D0;
     height: $height;
     transform: scaleX(1);
     animation: menu-in 1500ms 200ms ease-in-out both;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
-@mixin progress-bar ($height) {
-    border-radius: 0 13px 15px 0;
-    height: $height;
-    width: 130px;
-    position: relative;
-    background-color: $color-border;
-    left: 16px;
-    bottom: 15px;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 1000ms cubic-bezier(.32,0,.07,1);
-}
+    @mixin progress-bar ($height) {
+        border-radius: 0 13px 15px 0;
+        height: $height;
+        width: 130px;
+        position: relative;
+        background-color: $color-border;
+        left: 16px;
+        bottom: 15px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 1000ms cubic-bezier(.32,0,.07,1);
+    }
