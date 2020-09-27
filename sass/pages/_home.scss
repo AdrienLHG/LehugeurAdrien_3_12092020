@@ -62,11 +62,10 @@ aside {
         @include numero-rond (2rem, 56px, 56px);
         left: 0px;
         font-size: 2rem;
-        margin-top: 8px;
     }
 
     &__number p {
-        /*margin bloc début*/ /////////////////////////
+        margin-top: 8px;
     }
 
     &__texte {
@@ -140,14 +139,14 @@ aside {
 
     &__title {
         margin-left: 25px;
-        /*margin bloc début et fin*/ /////////////////////////
         font-size: 2rem;
     }
 
     &__city {
         margin-left: 25px;
         font-size: 1.8rem;
-        /*margin bloc fin*/ /////////////////////////
+        position: relative;
+        bottom: 20px;
     }
 
     &__new {
@@ -163,7 +162,7 @@ aside {
 
 .home-restaurant .far {
     font-size: 3.5rem;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 /*/////// Responsive format Tablette//////////*/
 @media screen and (max-width: 1024px) {
@@ -277,6 +276,11 @@ aside {
 
     .home-restaurant {
         @include preview-restaurant (92%);
+
+        &__city p {
+            position: relative;
+            bottom: 25px;
+        }
 
         &__new {
             @include bloc-new__tablette (380px);
@@ -413,6 +417,11 @@ aside {
             font-size: 1rem;
         }
 
+        &__city p {
+            position: relative;
+            bottom: 17px;
+        }
+
         .far {
             font-size: 1.8rem;
             margin-top: 30px;
@@ -457,7 +466,7 @@ aside {
     }
     .preview-restaurant h2 {
         font-size: 2rem;
-    }   
+    }
     .home-restaurant {
         @include preview-restaurant (85%);
 
@@ -476,6 +485,11 @@ aside {
 
         &__title {
             font-size: 1.3rem;
+        }
+
+        &__city p {
+            position: relative;
+            bottom: 15px;
         }
 
         .far {
@@ -537,6 +551,11 @@ aside {
 
         &__city {
             font-size: 0.9rem;
+        }
+
+        &__city p {
+            position: relative;
+            bottom: 12px;
         }
 
         &__new p {

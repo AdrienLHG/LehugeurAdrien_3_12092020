@@ -206,7 +206,8 @@ a {
   .item__choix {
     width: 100%; }
   .item__choix h2 {
-    /*margin bloc début et fin*/
+    position: relative;
+    bottom: 14px;
     font-size: 1.7rem;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -215,7 +216,9 @@ a {
     font-size: 1.4rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap; }
+    white-space: nowrap;
+    position: relative;
+    bottom: 28px; }
   .item__prix {
     position: absolute;
     left: 85%;
@@ -392,9 +395,13 @@ a {
       left: 25px;
       top: 20px; }
     .item__choix h2 {
-      font-size: 1.1rem; }
+      font-size: 1.1rem;
+      position: relative;
+      bottom: 9px; }
     .item__choix p {
-      font-size: 1.1rem; }
+      font-size: 1.1rem;
+      position: relative;
+      bottom: 15px; }
     .item__prix h2 {
       font-size: 1rem; } }
 @media screen and (max-width: 480px) {
@@ -513,9 +520,13 @@ a {
     .menu-restaurant .item--4 {
       animation-delay: 800ms; }
     .menu-restaurant .item__choix h2 {
-      font-size: 0.75rem; }
+      font-size: 0.75rem;
+      position: relative;
+      bottom: 6px; }
     .menu-restaurant .item__choix p {
-      font-size: 0.75rem; }
+      font-size: 0.75rem;
+      position: relative;
+      bottom: 9px; }
     .menu-restaurant .item__prix p {
       font-size: 0.8px; }
     .menu-restaurant .item__prix {
@@ -600,12 +611,11 @@ aside {
     color: white;
     position: relative;
     left: 15px;
-    bottom: 10px;
+    bottom: 20px;
     left: 0px;
-    font-size: 2rem;
-    margin-top: 8px; }
+    font-size: 2rem; }
   .home-work__number p {
-    /*margin bloc début*/ }
+    margin-top: 8px; }
   .home-work__texte {
     width: 80%;
     border-radius: 10px 10px 10px 10px;
@@ -678,12 +688,12 @@ aside {
     width: 80%; }
   .home-restaurant__title {
     margin-left: 25px;
-    /*margin bloc début et fin*/
     font-size: 2rem; }
   .home-restaurant__city {
     margin-left: 25px;
     font-size: 1.8rem;
-    /*margin bloc fin*/ }
+    position: relative;
+    bottom: 20px; }
   .home-restaurant__new {
     background-color: #f1f8e9;
     color: #75ab37;
@@ -701,7 +711,7 @@ aside {
 
 .home-restaurant .far {
   font-size: 3.5rem;
-  margin-top: 25px; }
+  margin-top: 35px; }
 
 /*/////// Responsive format Tablette//////////*/
 @media screen and (max-width: 1024px) {
@@ -745,7 +755,7 @@ aside {
     color: white;
     position: relative;
     left: 15px;
-    bottom: 10px;
+    bottom: 20px;
     margin-top: 21px; }
   .home-work__texte {
     width: 80%;
@@ -841,7 +851,7 @@ aside {
     color: white;
     position: relative;
     left: 15px;
-    bottom: 10px;
+    bottom: 20px;
     margin-top: 15px; }
 
   .home-restaurant {
@@ -856,6 +866,9 @@ aside {
     animation: menu-in 2000ms 2300ms ease-in-out both; }
     .home-restaurant:hover {
       cursor: pointer; }
+    .home-restaurant__city p {
+      position: relative;
+      bottom: 25px; }
     .home-restaurant__new {
       background-color: #f1f8e9;
       color: #75ab37;
@@ -940,7 +953,7 @@ aside {
       color: white;
       position: relative;
       left: 15px;
-      bottom: 10px;
+      bottom: 20px;
       margin-top: 16px; }
     .home-work__texte {
       width: 80%;
@@ -1000,6 +1013,9 @@ aside {
       font-size: 1.5rem; }
     .home-restaurant__city {
       font-size: 1rem; }
+    .home-restaurant__city p {
+      position: relative;
+      bottom: 17px; }
     .home-restaurant .far {
       font-size: 1.8rem;
       margin-top: 30px; } }
@@ -1033,7 +1049,7 @@ aside {
       color: white;
       position: relative;
       left: 15px;
-      bottom: 10px;
+      bottom: 20px;
       margin-top: 17px; }
     .home-work__texte {
       width: 80%;
@@ -1084,6 +1100,9 @@ aside {
       font-size: 1rem; }
     .home-restaurant__title {
       font-size: 1.3rem; }
+    .home-restaurant__city p {
+      position: relative;
+      bottom: 15px; }
     .home-restaurant .far {
       font-size: 1.8rem;
       margin-top: 20px; } }
@@ -1107,7 +1126,7 @@ aside {
       color: white;
       position: relative;
       left: 15px;
-      bottom: 10px;
+      bottom: 20px;
       margin-top: 17px; }
     .home-work__texte {
       width: 80%;
@@ -1161,6 +1180,9 @@ aside {
       font-size: 0.9rem; }
     .home-restaurant__city {
       font-size: 0.9rem; }
+    .home-restaurant__city p {
+      position: relative;
+      bottom: 12px; }
     .home-restaurant__new p {
       padding-top: 7px;
       font-size: 0.9rem; }

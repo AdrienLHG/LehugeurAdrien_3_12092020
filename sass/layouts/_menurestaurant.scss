@@ -92,7 +92,8 @@
     }
 
     &__choix h2 {
-        /*margin bloc début et fin*//////////////////////////
+        position: relative;
+        bottom: 14px;
         font-size: 1.7rem;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -104,6 +105,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        position: relative;
+        bottom: 28px;
     }
 
     &__prix {
@@ -359,10 +362,14 @@
 
         &__choix h2 {
             font-size: 1.1rem;
+            position: relative;
+            bottom: 9px;
         }
 
         &__choix p {
             font-size: 1.1rem;
+            position: relative;
+            bottom: 15px;
         }
 
         &__prix h2 {
@@ -548,10 +555,14 @@
 
             &__choix h2 {
                 font-size: 0.75rem;
+                position: relative;
+                bottom: 6px;
             }
 
             &__choix p {
                 font-size: 0.75rem;
+                position: relative;
+                bottom: 9px;
             }
 
             &__prix p {
