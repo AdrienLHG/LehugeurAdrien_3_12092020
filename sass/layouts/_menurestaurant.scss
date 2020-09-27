@@ -25,7 +25,6 @@
     }
 
     &__nom h1 {
-        /*margin bloc fin*/ /////////////////////////
         font-size: 3rem;
     }
 
@@ -41,20 +40,27 @@
 }
 
 .like-restaurant {
-    font-size: 3rem;
-    padding-top: 38px;
+    font-size: 4rem;
+    padding-top: 10px;
 }
 
 
 .item-titre {
     font-size: 2.2rem;
-    font-style:inherit;
-    padding-top: 40px;
+    font-style: inherit;
     padding-left: 50px;
 
     &--border {
         border-bottom: 3px solid;
         border-color: $color-border;
+    }
+
+    &--2 {
+        padding-top: 40px;
+    }
+
+    &--3 {
+        padding-top: 40px;
     }
 }
 
@@ -181,7 +187,6 @@
 
     .like-restaurant {
         font-size: 3rem;
-        padding-top: 38px;
         padding-left: 40px;
     }
 
@@ -306,7 +311,6 @@
 
         .like-restaurant {
             font-size: 2rem;
-            padding-top: 20px;
             padding-left: 5px
         }
 
@@ -318,11 +322,18 @@
     .item-titre {
         font-size: 1.5rem;
         padding-left: 30px;
-        padding-top: 30px;
 
         &--border {
             border-bottom: 2px solid;
             border-color: $color-border;
+        }
+
+        &--2 {
+            padding-top: 30px;
+        }
+
+        &--3 {
+            padding-top: 30px;
         }
     }
 
@@ -400,8 +411,6 @@
 
         .like-restaurant {
             font-size: 2rem;
-            padding-top: 20px;
-            padding-left: 15px
         }
     }
 
@@ -485,7 +494,7 @@
 
     .like-restaurant {
         font-size: 2rem;
-        padding-top: 20px;
+        padding-top: 4px;
     }
 
     .item {
@@ -518,12 +527,13 @@
 
         .nom-restaurant {
             margin-left: 30px;
+            padding-top: 10px;
             width: 63%;
         }
 
         .like-restaurant {
             font-size: 1.6rem;
-            padding-top: 20px;
+            padding-top: 12px;
             padding-left: 20px
         }
 

@@ -88,14 +88,11 @@ $color-border: #99E2D0;
     color: white;
     position: relative;
     left: 15px;
-    bottom: 20px;
 }
 
 @mixin texte-work ($font-size) {
     width: 80%;
-    border-radius: 10px 10px 10px 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
     margin-bottom: 20px;
     font-size: $font-size;
     background-color: #f5f5f5;
