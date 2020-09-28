@@ -206,7 +206,8 @@ aside {
     .home-work {
         &__number {
             @include numero-rond (2rem, 56px, 56px);
-            bottom: 20px;
+            bottom: 0px;
+
         }
 
         &__texte {
@@ -269,10 +270,10 @@ aside {
 
         &__number {
             @include numero-rond (2rem, 53px, 53px);
-            margin-top: 30px;
+            margin-top: 15px;
         }
     }
-
+     
     .home-restaurant {
         @include preview-restaurant (92%);
 
@@ -365,7 +366,11 @@ aside {
 
         &__number {
             @include numero-rond (1.2rem, 34px, 34px);
-            margin-top: 27px;
+            margin-top: 9px;
+        }
+
+        &__number p {
+            margin-top: 6px;
         }
 
         &__texte {
@@ -452,7 +457,7 @@ aside {
 
         &__number {
             @include numero-rond (1.2rem, 34px, 34px);
-            margin-top: 22px;
+            margin-top: 4px;
         }
 
         &__texte {
@@ -509,7 +514,11 @@ aside {
 
         &__number {
             @include numero-rond (1rem, 27px, 27px);
-            margin-top: 25px;
+            margin-top: 5px;
+        }
+
+        &__number p {
+            margin-top: 4px;
         }
 
         &__texte {
