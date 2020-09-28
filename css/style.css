@@ -117,10 +117,10 @@ footer .fas {
 footer h4 {
   text-align: center; }
 
-a {
+.contenu-footer a {
   text-decoration: none;
   color: white; }
-  a:hover {
+  .contenu-footer a:hover {
     cursor: pointer; }
 
 @media screen and (max-width: 1024px) {
@@ -261,8 +261,10 @@ a {
 
   .nom-restaurant {
     margin-left: 50px;
-    width: 70%;
-    font-size: 2.6rem; }
+    width: 70%; }
+
+  .nom-restaurant h1 {
+    font-size: 2.4rem; }
 
   .like-restaurant {
     font-size: 3rem;
@@ -527,11 +529,11 @@ a {
     .menu-restaurant .item--4 {
       animation-delay: 800ms; }
     .menu-restaurant .item__choix h2 {
-      font-size: 0.75rem;
+      font-size: 0.67rem;
       position: relative;
       bottom: 6px; }
     .menu-restaurant .item__choix p {
-      font-size: 0.72rem;
+      font-size: 0.65rem;
       position: relative;
       bottom: 9px; }
     .menu-restaurant .item__prix p {
