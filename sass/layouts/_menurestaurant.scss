@@ -221,6 +221,7 @@
         }
     }
 }
+
 @media screen and (max-width: 700px) {
 
     .menu-restaurant {
@@ -237,7 +238,6 @@
         &__choix h2 {
             font-size: 1.6rem;
         }
-
     }
 }
 
@@ -246,6 +246,10 @@
     .menu-restaurant {
         &__photo {
             height: 335px;
+        }
+
+        &__nom h1 {
+            font-size: 2.2rem;
         }
     }
 
@@ -263,6 +267,16 @@
     }
 }
 
+@media screen and (max-width: 580px) {
+
+    .menu-restaurant {
+
+        &__nom h1 {
+            font-size: 2.05rem;
+        }
+    }
+}
+
 @media screen and (max-width: 550px) {
 
     .menu-restaurant {
@@ -271,8 +285,12 @@
         }
 
         &__nom h1 {
-            font-size: 2.2rem;
+            font-size: 2rem;
         }
+    }
+
+    .like-restaurant {
+        padding-left: 0;
     }
 
     .nom-restaurant {
@@ -287,6 +305,7 @@
 
         &__choix p {
             font-size: 1.3rem;
+            bottom: 20px
         }
 
         &__progress {
@@ -418,11 +437,11 @@
     }
 
     .item {
-         &:hover {
-             & > .item__prix {
+        &:hover {
+            & > .item__prix {
                 transform: translate(-75px);
-             }
-         }
+            }
+        }
     }
 }
 
@@ -449,8 +468,6 @@
     .nom-restaurant {
         margin-left: 30px;
         width: 70%;
-
-
     }
 
     .item {
@@ -630,6 +647,7 @@
         }
     }
 }
+
 @media screen and (max-width: 320px) {
 
     .menu-restaurant {

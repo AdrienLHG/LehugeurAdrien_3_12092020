@@ -303,16 +303,24 @@ footer h4 {
 @media screen and (max-width: 620px) {
   .menu-restaurant__photo {
     height: 335px; }
+  .menu-restaurant__nom h1 {
+    font-size: 2.2rem; }
 
   .item__choix h2 {
     font-size: 1.5rem; }
   .item:hover > .item__prix {
     transform: translate(-105px); } }
+@media screen and (max-width: 580px) {
+  .menu-restaurant__nom h1 {
+    font-size: 2.05rem; } }
 @media screen and (max-width: 550px) {
   .menu-restaurant__photo {
     height: 300px; }
   .menu-restaurant__nom h1 {
-    font-size: 2.2rem; }
+    font-size: 2rem; }
+
+  .like-restaurant {
+    padding-left: 0; }
 
   .nom-restaurant {
     width: 75%; }
@@ -320,7 +328,8 @@ footer h4 {
   .item__choix h2 {
     font-size: 1.3rem; }
   .item__choix p {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    bottom: 20px; }
   .item__progress {
     border-radius: 0 13px 15px 0;
     height: 110px;
