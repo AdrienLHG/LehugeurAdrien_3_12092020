@@ -164,6 +164,8 @@ footer h4 {
 .like-restaurant {
   font-size: 4rem;
   padding-top: 10px; }
+  .like-restaurant:hover {
+    cursor: pointer; }
 
 .item-titre {
   font-size: 2.2rem;

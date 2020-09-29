@@ -42,6 +42,10 @@
 .like-restaurant {
     font-size: 4rem;
     padding-top: 10px;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 
