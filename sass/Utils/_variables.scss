@@ -102,6 +102,7 @@ $color-border: #99E2D0;
     &:hover {
         background-color: lighten(#FF79DA, 10%);
         opacity: 70%;
+        color: white;
         box-shadow: 2px 20px 30px $color-shadow;
         cursor: pointer;
         transform: scale(1.05);
